@@ -1,0 +1,26 @@
+.content_propuestas {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px;
+    max-width: 100%;
+}
+
+.img-candidatoP {
+    @include resizeImage(200px);
+    @include polaroidImage();
+}
+
+.filtroPropuestas {
+    background-color: $gray-background;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.infoCandidato {
+    @include flexAlignCenter(column);
+}
+
+.candidatoPropuestas {
+    background-color: $softest-purple;
+    border-radius: 20px;
+}

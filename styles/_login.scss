@@ -1,0 +1,18 @@
+.content_login {
+    @include flexCenter(column);
+}
+.form_container {
+    @include flexCenter(row);
+    .form_login {
+        @include form_style(30px);
+        .submission_login {
+            @include flexAlignCenter(column);
+        }
+        .change_signup {
+            padding-top: 2%;
+            a {
+                font-weight: 700;
+            }
+        }
+    }
+}

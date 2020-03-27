@@ -1,0 +1,50 @@
+@import '../bootstrap-4.4.1/scss/bootstrap';
+@import './config';
+@import './header';
+@import './footer';
+@import './sidebar';
+@import './mainPage';
+@import './login';
+@import './signup';
+@import './home';
+@import './about';
+@import './policies';
+@import './candidatos';
+@import './propuestas';
+@import './votar';
+@import './estadisticas';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+      height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $soft-purple;
+  }
+
+  .title_container {
+    @include flexCenter(row);
+    padding: 40px;
+  }
+
+  .main_container {
+    @include flexCenter(column);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    flex: 1;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+}

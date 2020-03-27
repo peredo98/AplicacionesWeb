@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/style.css" >
+    <title>Votación</title>
+  </head>
+  <body class = 'body_container'>
+    <div class = 'main_container'>
+        <header>
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark header-color">
+                <div class="container">
+                    <div class="corner-ribbon top-left">Beta</div>
+                    <a href="./index.html" class="navbar-brand">
+                        <img src="./assets/logo.png" height="36" alt="A votar">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="./index.html" class="nav-item nav-link">Home</a>
+                            <a href="./candidatos.html" class="nav-item nav-link">Candidatos</a>
+                            <a href="./propuestas.html" class="nav-item nav-link">Propuestas</a>
+                            <a href="./estadisticas.html" class="nav-item nav-link">Estadisticas</a>
+                            <a href="./votar.html" class="nav-item nav-link active">Votar</a>
+                        </div>
+                        <div class="navbar-nav ml-auto">
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Español
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">English</a>
+                                </div>
+                            </div>
+                            <a href="./login.html" class="nav-item nav-link">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class = "wrapper">
+            <section class = 'content_candidatos col-sm-10'>
+                <div class = "row">
+                    <div class = 'title_container col-sm-12'>
+                        <h3> 
+                            Votación
+                        </h3>
+                    </div>
+                </div>
+                <div class = "filtroCandidatos row p-sm-2">
+                    <div class = "labelContainer col-lg-3 col-md-6 col-sm-12 pr-0">
+                        <p class ="selectText">Selecciona el nivel de gobierno: </p>
+                    </div>
+                    <div class = "col-lg-3 col-md-6 col-sm-12">
+                        <form>
+                            <select class="custom-select" id="buscarCandidatos">
+                                <option selected>Elegir...</option>
+                                <option value="1">Federal</option>
+                                <option value="2">Estatal</option>
+                                <option value="3">Municipal</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class = "col-lg-3 col-md-12 col-sm-12 pt-lg-0 pt-2 text-center">
+                        <button type="submit" class="btn btn-primary">Buscar</button>
+                    </div>
+                </div>
+                <div class = "row container_candidatos">
+                    <div class = "container_candidato col-lg-6 col-md-12 col-sm-12 pt-2 pb-2">
+                        <div class ="row">
+                            <p class = "selectText col-12">Partido Morena</p>
+                        </div>
+                        <div class = "container_boleta row d-flex align-items-center">
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-partido-lg rounded" src="./assets/morena.png" alt="partidoMorena">
+                            </div>
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-candidato img-thumbnail" src="./assets/amlo.png" alt="candidatoMorena">
+                            </div>
+                            <div class = "col-sm-4 col-12">
+                                <p class = "selectText text-center">Andrés Manuel López Obrador</p>
+                            </div>
+                        </div>
+                        <div class = "row pt-5">
+                            <button type="button" class="btn btn-success mr-2">Votar</button>
+                            <button type="button" class="btn btn-danger ml-2">Descartar</button>
+                        </div>
+                    </div>
+                    <div class = "container_candidato col-lg-6 col-md-12 col-sm-12 pt-2 pb-2">
+                        <div class ="row">
+                            <p class = "selectText col-12">Partido Revolucionario Institucional</p> 
+                        </div>
+                        <div class = "container_boleta row d-flex align-items-center">
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-partido-lg rounded" src="./assets/pri.png" alt="partidoPRI">
+                            </div>
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-candidato img-thumbnail" src="./assets/meade.jpg" alt="candidatoPRI">
+                            </div>
+                            <div class = "col-sm-4 col-12">
+                                <p class = "selectText text-center">José Antonio Meade Kuribreña</p>
+                            </div>
+                        </div>
+                        <div class = "row pt-5">
+                            <button type="button" class="btn btn-success mr-2">Votar</button>
+                            <button type="button" class="btn btn-danger ml-2">Descartar</button>
+                        </div>
+                    </div> 
+                </div>
+                <div class = "row container_candidatos">
+                    <div class = "container_candidato col-lg-6 col-md-12 col-sm-12 pt-2 pb-2">
+                        <div class ="row">
+                            <p class = "selectText col-12">Partido Acción Nacional</p>
+                        </div>
+                        <div class = "container_boleta row d-flex align-items-center" >
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-partido-lg rounded" src="./assets/pan.png" alt="partidoPAN">
+                            </div>
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-candidato img-thumbnail mt-2" src="./assets/ricardoanaya.jpg" alt="candidatoPAN">
+                            </div>
+                            <div class = "col-sm-4 col-12">
+                                <p class = "selectText text-center">Ricardo Anaya Corté</p>
+                            </div>
+                        </div>
+                        <div class = "row pt-5">
+                            <button type="button" class="btn btn-success mr-2">Votar</button>
+                            <button type="button" class="btn btn-danger ml-2">Descartar</button>
+                        </div>
+                    </div>
+                   <div class = "container_candidato col-lg-6 col-md-12 col-sm-12 pt-2 pb-2">
+                        <div class ="row">
+                            <p class = "selectText col-12">Partido Acción Nacional</p>
+                        </div>
+                        <div class = "container_boleta row d-flex align-items-center">
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-partido-lg rounded" src="./assets/independiente.jpeg" alt="partidoIndependiente">
+                            </div>
+                            <div class = "d-flex justify-content-center col-sm-4 col-12">
+                                <img class = "img-candidato img-thumbnail mt-2" src="./assets/bronco.jpg" alt="candidatoIndependiente" >
+                            </div>
+                            <div class = "col-sm-4 col-12">
+                                <p class = "selectText text-center">Jaime Rodríguez Calderón</p>
+                            </div>
+                        </div>
+                        <div class = "row pt-5">
+                            <button type="button" class="btn btn-success mr-2">Votar</button>
+                            <button type="button" class="btn btn-danger ml-2">Descartar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id = 'footer_container'>
+            <div id = "footer_left">
+                <div class = "footer_copyright">
+                    <p>Copyright © 2020 - Todos los derechos reservados</p>
+                </div>
+                <div class="footer_policy">
+                    <p><a class = "footer_link" href = "./policies.html">Términos y condiciones</a></p>
+                </div>
+            </div>
+            <div id = "footer_right">
+                <div id = "footer_about">
+                    <p><a class="footer_link" href="./about.html">Sobre nosotros</a></p>
+                </div>
+                <div class="footer_contact">
+                    <p>Contacto: correo electrónico: correo@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script src="./jquery/jquery-3.4.1.min.js"></script>
+        <script src="./popper/popper.min.js"></script>
+        <script src="./bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

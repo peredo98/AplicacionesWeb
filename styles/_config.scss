@@ -1,0 +1,72 @@
+$dark-purple: #7852A4;
+$soft-purple: #EADDFA;
+$softest-purple:  #F2EBFA;
+$gray-purple: #ECE7F1;
+$gray-text: #6f777b;
+$gray-border: #C1C1C1;
+$gray-background: #D1D1D1;
+$gray-text: #414046;
+$white: #FFF;
+$white-purple: #F4F0FA;
+$labelFontText: 700;
+
+$flexCenterDispay: flex;
+$flexCenterJustify: center;
+$flexAlignCenterAlignItems: center;
+$form_styleBorder: 1px solid #E1E1E1;
+$form_styleBorderRadius: 10px;
+$infoTextAlign: center;
+$activeFontWeight: 600;
+$resizeImageWidth: auto;
+$polaroidImageBorder: 1px solid #ddd;
+$polaroidImageBorderRadius: 4px;
+$polaroidImagePadding: 5px;
+
+@mixin flexCenter($direction){
+    display: $flexCenterDispay;
+    justify-content: $flexCenterJustify;
+    flex-direction: $direction;
+}
+
+@mixin flexAlignCenter($direction){
+    @include flexCenter($direction);
+    align-items: $flexAlignCenterAlignItems;
+}
+
+@mixin form_style($padding){
+    background-color: $softest-purple;
+    padding: $padding;
+    border: $form_styleBorder;
+    border-radius: $form_styleBorderRadius;
+    @include flexCenter(column);
+}
+
+@mixin info($width, $fontSize, $fontWeight){
+    width: $width;
+    font-size: $fontSize;
+    text-align: $infoTextAlign;
+    font-weight: $fontWeight;
+
+}
+
+@mixin activeFont(){
+    color: $gray-text;
+    font-weight: $activeFontWeight;
+}
+
+@mixin resizeImage($height){
+    width: $resizeImageWidth;
+    height: $height;
+}
+
+@mixin polaroidImage {
+    
+    border: $polaroidImageBorder;
+    border-radius: $polaroidImageBorderRadius;
+    padding: $polaroidImagePadding;
+}
+
+@mixin labelText{
+    font-weight: 700;
+    color: $gray-text;
+}

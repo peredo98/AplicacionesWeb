@@ -1,0 +1,28 @@
+$footerContainerMarginTop: auto;
+$footerContainerDispay: flex;
+$footerContainerJustify: space-between;
+$footerContainerPaddingTop: 1%;
+$footerContainerWidth: 50%;
+$footerContainerFlexAlignCenter: column;
+$footerContainerFontSize: 14px;
+$footerContainerColor: inherit;
+
+#footer_container {
+    background: $gray-purple;
+    margin-top: $footerContainerMarginTop;
+    display: $footerContainerDispay;
+    justify-content: $footerContainerJustify;
+    padding-top: $footerContainerPaddingTop;
+    #footer_left, #footer_right{
+        width: $footerContainerWidth;
+        @include flexAlignCenter($footerContainerFlexAlignCenter);
+        color: $gray-text;
+        font-size: $footerContainerFontSize;
+        .footer_link {
+            color: $footerContainerColor;
+        }
+        .footer_active{
+            @include activeFont();
+        }
+    }
+}

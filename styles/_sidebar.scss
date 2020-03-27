@@ -1,0 +1,16 @@
+.sidebar {
+    background-color: #AEA4CC;
+    a {
+        padding: 20px;
+        border-bottom: 2px solid rgba(0,0,0,.05);
+        color: #e9e7ee;
+        &:hover {
+            color: #737278;
+            background-color: rgb(160, 150, 189);
+        }
+    }
+    .active {
+        @include activeFont();
+        font-size: 18px;
+    }
+}

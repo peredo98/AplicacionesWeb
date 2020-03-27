@@ -1,0 +1,14 @@
+$imgCandidate: 120px;
+
+.infoEstadisticasContainer{
+    background-color: $white-purple;
+}
+
+.infoEstadisticaContainer{
+    @include polaroidImage;
+    background-color: $white;
+}
+
+.img-candidato-sm {
+    @include resizeImage($imgCandidate);
+}

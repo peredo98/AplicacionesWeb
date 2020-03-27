@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/style.css" >
+    <title>Propuestas</title>
+  </head>
+  <body class = 'body_container'>
+    <div class = 'main_container'>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark header-color">
+            <div class="container">
+                <div class="corner-ribbon top-left">Beta</div>
+                <a href="./index.html" class="navbar-brand">
+                    <img src="./assets/logo.png" height="36" alt="A votar">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="./index.html" class="nav-item nav-link">Home</a>
+                        <a href="./candidatos.html" class="nav-item nav-link">Candidatos</a>
+                        <a href="./propuestas.html" class="nav-item nav-link active">Propuestas</a>
+                        <a href="./estadisticas.html" class="nav-item nav-link">Estadisticas</a>
+                        <a href="./votar.html" class="nav-item nav-link">Votar</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Español
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">English</a>
+                            </div>
+                        </div>
+                        <a href="./login.html" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <div class = "wrapper">
+            <section class = 'content_propuestas col-sm-10'>
+                <div class = "row">
+                    <div class = "col-sm-12">
+                        <div class = 'title_container'>
+                            <h3> 
+                                Propuestas
+                            </h3>
+                        </div>
+                     </div>
+                </div>
+                <div class = "filtroPropuestas row pt-sm-2">
+                    <div class = "col-md-2 col-sm-12">
+                        <p class ="selectText">Selecciona el nvel de gobierno: </p>
+                    </div>
+                    <div class = "col-md-3 col-sm-12">
+                        <form>
+                            <select class="custom-select" id="buscarCandidatos">
+                                <option selected>Elegir...</option>
+                                <option value="1">Federal</option>
+                                <option value="2">Estatal</option>
+                                <option value="3">Municipal</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class = "col-md-2 col-sm-12 labelContainer">
+                        <p class ="selectText">Selecciona el candidato: </p>
+                    </div>
+                    <div class = "col-md-3 col-sm-12">
+                        <form>
+                            <select class="custom-select" id="sleccionarCandidato">
+                                <option selected>Elegir...</option>
+                                <option value="1">Andrés Manuel López Obrador</option>
+                                <option value="2">José Antonio Meade Kuribreña</option>
+                                <option value="3">Ricardo Anaya Cortés</option>
+                                <option value="3">Jaime Rodríguez Calderón</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class = "col-md-2 col-sm-12 pt-lg-0 pt-2 text-xl-left text-center">
+                        <button type="submit" class="btn btn-primary">Buscar</button>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-sm-12 text-center infoCandidato">
+                        <div class ="candidatoPropuestas col-lg-3 col-md-4 col-sm-5 col-12 mt-3">
+                            <h4 class = "mt-1">Candidato</h4>
+                            <img class = "img-candidatoP  mt-2" src="./assets/amlo.png" alt="candidatoMorena">
+                            <p class = "selectText mt-1">Andrés Manuel López Obrador</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-sm-12 p-sm-3">
+                    <hr>
+                        <div class ="p-3">
+                            <h4> Economía</h4>
+                            <p class = "info_about pt-3">
+                                Crear una plataforma digital para obtener empleo, donde se contenga la mayor red de vacantes disponibles en el mercado laboral. No al aumento de impuestos (IVA, ISR).
+                            </p>
+                            <p class = "info_about pt-1">
+                                Reducir el gasto corriente para aumentar la inversión pública. Incrementar el salario mínimo en un 15.6% anual, más inflación, para llegar a la cantidad de 171 pesos diarios al final del sexenio.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class ="p-3">
+                            <h4>Educación</h4>
+                            <p class = "pt-3">
+                                Acceso a internet en todo el territorio nacional. Acceso a escuelas universitarias públicas y privadas para todos los estudiantes que aspiren a ellas.
+                            </p>
+                            <p class = "pt-1">
+                                Becar a los jóvenes rechazados de universidades públicas con un apoyo de 29 mil pesos anuales, es decir un salario mínimo mensual.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class ="p-3">
+                            <h4> Políticas</h4>
+                            <p class = "pt-3">
+                                Eliminar el fuero al presidente de la República y a todos los altos funcionarios. Política de austeridad que permita contar con un presupuesto suficiente para promover el desarrollo, la producción y el empleo, garantizando el bienestar de todos.
+                            </p>
+                            <p class = "pt-1">
+                                Reducción de sueldos en altos funcionarios. Descentralizar el Gobierno Federal.
+                            </p>
+                        </div>
+                        <hr>
+                        <div class = "p-3">
+                                <h4> Seguridad </h4>
+                                <p class = "pt-3">
+                                    Relanzar programa nacional de prevención social de violencia y delincuencia. Establecer labores prioritarias de prevención a grupos en situación de riesgo. Fortalecer capacidades de corporaciones policiacas.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id = 'footer_container'>
+            <div id = "footer_left">
+                <div class = "footer_copyright">
+                    <p>Copyright © 2020 - Todos los derechos reservados</p>
+                </div>
+                <div class="footer_policy">
+                    <p><a class = "footer_link" href = "./policies.html">Términos y condiciones</a></p>
+                </div>
+            </div>
+            <div id = "footer_right">
+                <div id = "footer_about">
+                    <p><a class="footer_link" href="./about.html">Sobre nosotros</a></p>
+                </div>
+                <div class="footer_contact">
+                    <p>Contacto: correo electrónico: correo@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./jquery/jquery-3.4.1.min.js"></script>
+    <script src="./popper/popper.min.js"></script>
+    <script src="./bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+.content_signup {
+    @include flexCenter(column);
+}
+
+.form_container {
+    @include flexCenter(row);
+    margin-bottom: 5%;
+
+    .form_signup {
+        @include form_style(20px);
+        .submission_signup {
+            @include flexAlignCenter(column);
+        }
+        .change_login {
+            a {
+                font-weight: 700;
+            }
+        }
+    }
+}
