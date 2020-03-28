@@ -1,26 +1,35 @@
+$propuestasContentDisplay:flex;
+$propuestasContentFlexDirection:column;
+$propuestasContentFlex:1;
+$propuestasContentBorder:1px;
+$propuestasContentWidth: 100%;
+$propuestasImgResize:200px;
+$propuestasFiltroRadius: 15px 15px 0px 0px;
+$propuestasCandidatoFlex: column;
+$propuestasCandidatoRadius: 20px;
 .content_propuestas {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    border: 1px;
-    max-width: 100%;
+    display: $propuestasContentDisplay;
+    flex-direction: $propuestasContentFlexDirection;
+    flex: $propuestasContentFlex;
+    border: $propuestasContentBorder;
+    max-width: $propuestasContentWidth;
 }
 
 .img-candidatoP {
-    @include resizeImage(200px);
+    @include resizeImage($propuestasImgResize);
     @include polaroidImage();
 }
 
 .filtroPropuestas {
     background-color: $gray-background;
-    border-radius: 15px 15px 0px 0px;
+    border-radius:$propuestasFiltroRadius;
 }
 
 .infoCandidato {
-    @include flexAlignCenter(column);
+    @include flexAlignCenter($propuestasCandidatoFlex);
 }
 
 .candidatoPropuestas {
     background-color: $softest-purple;
-    border-radius: 20px;
+    border-radius: $propuestasCandidatoRadius;
 }

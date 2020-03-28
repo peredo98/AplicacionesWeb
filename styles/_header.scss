@@ -1,13 +1,13 @@
 $headerHeight : 62px;
 $ribbonWidth : 80px;
-$ribbonBackground: rgb(255, 0, 0);
+$ribbonBackground: $red;
 $ribbonPosition: absolute;
 $ribbonTop: 5px;
 $ribbonSide: -20px;
 $ribbonTextAlign: center;
 $ribbonLineHeight: 25px;
 $ribbonLetterSpacing: 1px;
-$ribbonColor: #f0f0f0;
+$ribbonColor: $whiteMoreWhite;
 $ribbonLeftTransform: rotate(-45deg);
 $ribbonLeftWebKitTransform: rotate(-45deg);
 $ribbonRightTransform: rotate(45deg);
@@ -15,7 +15,7 @@ $ribbonRightWebKitTransform: rotate(45deg);
 $ribbonRightLeft: auto;
 
 header{
-    height: $headerHeigh;
+    height: $headerHeight;
 }
 .header-color {
     background-color: $dark-purple;
@@ -24,7 +24,7 @@ header{
 .corner-ribbon{
     width: $ribbonWidth;
     background: $ribbonBackground;
-    position: a$ribbonPosition;
+    position: $ribbonPosition;
     top: $ribbonTop;
     left: $ribbonSide;
     text-align: $ribbonTextAlign;

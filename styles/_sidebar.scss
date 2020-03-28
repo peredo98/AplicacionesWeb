@@ -1,16 +1,24 @@
+$sideBarBackgroundColor:#AEA4CC;
+$sideBarPadding:20px;
+$sideBarBottom: 2px solid rgba(0,0,0,.05);
+$sideBarColor: #e9e7ee;
+$sideBarHoverColor:#737278;
+$sideBarHoverBackgroundColor:rgb(160, 150, 189);
+$sideBarActiveFontSize: 18px;
+
 .sidebar {
-    background-color: #AEA4CC;
+    background-color: $sideBarBackgroundColor;
     a {
-        padding: 20px;
-        border-bottom: 2px solid rgba(0,0,0,.05);
-        color: #e9e7ee;
+        padding: $sideBarPadding;
+        border-bottom: $sideBarBottom ;
+        color: $sideBarColor;
         &:hover {
-            color: #737278;
-            background-color: rgb(160, 150, 189);
+            color: $sideBarHoverColor;
+            background-color: $sideBarHoverBackgroundColor;
         }
     }
     .active {
         @include activeFont();
-        font-size: 18px;
+        font-size: $sideBarActiveFontSize;
     }
 }

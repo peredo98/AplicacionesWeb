@@ -10774,7 +10774,7 @@ header {
 
 .corner-ribbon {
   width: 80px;
-  background: red;
+  background: #ff0000;
   position: absolute;
   top: 5px;
   left: -20px;
@@ -10799,15 +10799,6 @@ header {
   left: auto;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
-
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
 }
 
 #footer_container {
@@ -10869,98 +10860,6 @@ header {
   color: #414046;
   font-weight: 600;
   font-size: 18px;
-}
-
-.content_main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.left-section, .right-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 50%;
-}
-
-.main_info {
-  width: 80%;
-  font-size: 18px;
-  text-align: center;
-  font-weight: 700;
-}
-
-.form_container {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.form_container .form_main_login {
-  background-color: #F2EBFA;
-  padding: 30px;
-  border: 1px solid #E1E1E1;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.form_container .form_main_login .submission_main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.form_container .form_main_login .change_signup_main {
-  padding-top: 1%;
-}
-
-.form_container .form_main_login .change_signup_main a {
-  font-weight: 700;
 }
 
 .content_login {
@@ -11280,7 +11179,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 40px;
+  padding: 0;
 }
 
 .main_container {
