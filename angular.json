@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/bootstrap/scss/bootstrap.scss",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "src/styles/styles.scss"
             ],
             "scripts": []
           },
@@ -92,6 +94,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "desarrolloWeb2020Zoom"
+    }
+  },
+  "defaultProject": "desarrolloWeb2020Zoom",
+  "cli": {
+    "analytics": "31900fd0-8653-41b8-b80f-ded33e7dbc4e"
+  }
 }
