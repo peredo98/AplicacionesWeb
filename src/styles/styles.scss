@@ -12,6 +12,7 @@
 @import './propuestas';
 @import './votar';
 @import './estadisticas';
+@import './listaEncuestas';
 $styleBoxSize: border-box;
 $styleBoxMargin: 0;
 $styleBoxPadding: 0;
@@ -24,22 +25,21 @@ $styleTitleContainerPadding: 40px;
 $styleMainContainerFlexCenter: column;
 $styleMainContainerPadding: 0;
 $styleMainContainerMargin:0;
-$styleMainContainerHeight:100vh;
+$styleMainContainerHeight:100%;
 $styleMainContainerFlex:1;
 $styleWrapperDisplay:flex;
 $styleWrapperFlex:1;
-
 * {
     box-sizing: $styleBoxSize;
     margin: $styleBoxMargin;
     padding: $styleBoxPadding;
   }
 
-html {
+  html {
       height: $styleHtmlHeight;
   }
 
-body{
+  body {
     min-height: $styleBodyHeight;
     display: $styleBodyDisplay;
     flex-direction: $styleBodyDirection;
@@ -55,7 +55,7 @@ body{
     @include flexCenter($styleMainContainerFlexCenter);
     padding: $styleMainContainerPadding;
     margin: $styleMainContainerMargin;
-    min-height: $styleMainContainerHeight;
+    height: $styleMainContainerHeight;
     flex: $styleMainContainerFlex;
 }
 
@@ -64,3 +64,6 @@ body{
     flex: $styleWrapperFlex;
 }
 
+.whitePurpleContainer{
+  background-color: $white-purple;
+}
