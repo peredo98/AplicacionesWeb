@@ -12,6 +12,7 @@
 @import './propuestas';
 @import './votar';
 @import './estadisticas';
+@import './listaEncuestas';
 $styleBoxSize: border-box;
 $styleBoxMargin: 0;
 $styleBoxPadding: 0;
@@ -61,4 +62,8 @@ $styleWrapperFlex:1;
 .wrapper {
     display: $styleWrapperDisplay;
     flex: $styleWrapperFlex;
+}
+
+.whitePurpleContainer{
+  background-color: $white-purple;
 }
