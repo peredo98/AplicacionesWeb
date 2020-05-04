@@ -1,0 +1,25 @@
+<div class = 'main_container'>
+    <app-header></app-header>
+    <section class = 'content_login'>
+        <div class = 'title_container py-3'>
+            <h2> 
+                Contestar Encuesta
+            </h2>
+        </div>
+        <div class = 'form_container'>
+            <form class = "form_login col-lg-4 col-md-5 col-sm-6 col-10">
+                <div class = "pregunta">
+                    <app-contestar-pregunta></app-contestar-pregunta>
+                    <hr>
+                    <app-contestar-pregunta></app-contestar-pregunta>
+                    <hr>
+                    <app-contestar-pregunta></app-contestar-pregunta> 
+                    <hr>    
+                </div>
+                <button class="btn btn-secondary mt-3" type="submit">Cancelar</button>
+                <button class="btn btn-primary mt-3" type="submit">Terminar</button>
+            </form>
+        </div>
+    </section>
+</div>
+<app-footer></app-footer>
