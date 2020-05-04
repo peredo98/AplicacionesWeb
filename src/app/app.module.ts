@@ -28,6 +28,8 @@ import { FechasUsuarioComponent } from './fechas-usuario/fechas-usuario.componen
 import { CrearPreguntaComponent } from './crear-pregunta/crear-pregunta.component';
 import { ContestarEncuestaComponent } from './contestar-encuesta/contestar-encuesta.component';
 import { ContestarPreguntaComponent } from './contestar-pregunta/contestar-pregunta.component';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -56,11 +58,14 @@ import { ContestarPreguntaComponent } from './contestar-pregunta/contestar-pregu
     FechasUsuarioComponent,
     CrearPreguntaComponent,
     ContestarEncuestaComponent,
-    ContestarPreguntaComponent
+    ContestarPreguntaComponent,
+    routingComponents,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
