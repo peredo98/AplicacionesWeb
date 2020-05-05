@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md fixed-top navbar-dark header-color">
     <div class="container">
         <div class="corner-ribbon top-left">Beta</div>
-        <a routerLink="/home" routerLinkActive="active" class="navbar-brand">
+        <a routerLink="/usuario" routerLinkActive="active current" class="navbar-brand">
             <img src="./assets/logo.png" height="36" alt="A votar">
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -9,19 +9,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a routerLink="/admin" routerLinkActive="active" class="nav-item nav-link">Home</a>
-                <a routerLink="/encuestas" routerLinkActive="active" class="nav-item nav-link">Encuestas</a>
+                <a routerLink="/usuario" routerLinkActive="active current" class="nav-item nav-link">Home</a>
+                <a routerLink="/usuario/listaEncuestas" routerLinkActive="active current" class="nav-item nav-link">Encuestas</a>
+                <a routerLink="/usuario/estadisticas" routerLinkActive="active current" class="nav-item nav-link">Estadisticas</a>
             </div>
             <div class="navbar-nav ml-auto">
                 <div class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" routerLink="/es" routerLinkActive="active" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Español
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" routerLink="/en" routerLinkActive="active">English</a>
+                        <a class="dropdown-item" href="#" >English</a>
                     </div>
                 </div>
-                <a routerLink="/login" routerLinkActive="active" class="nav-item nav-link">Login</a>
+                <a routerLink="/login" routerLinkActive="active current" class="nav-item nav-link">Cerrar sesión</a>
             </div>
         </div>
     </div>

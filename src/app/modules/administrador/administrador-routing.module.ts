@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'; // CLI imports router
-import { PoliciesComponent } from 'src/app/policies/policies.component';
-import { AboutComponent } from 'src/app/about/about.component';
+import { PoliciesComponent } from './policies/policies.component';
+import { AboutComponent } from './about/about.component';
 import { EstadisticasAdminComponent } from './estadisticas-admin/estadisticas-admin.component';
 import { EncuestasAdminComponent } from './encuestas-admin/encuestas-admin.component';
 import { ListaEncuestasAdminComponent } from './lista-encuestas-admin/lista-encuestas-admin.component';

@@ -14,10 +14,14 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { ListaEncuestasUsuarioComponent } from './lista-encuestas-usuario/lista-encuestas-usuario.component';
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { PoliciesComponent } from './policies/policies.component';
 
 
 @NgModule({
-  declarations: [ContestarEncuestaComponent,
+  declarations: [AboutComponent,
+                PoliciesComponent,
+                ContestarEncuestaComponent,
                 ContestarPreguntaComponent,
                 EncuestasUsuarioComponent,
                 EstadisticasUsuarioComponent,
