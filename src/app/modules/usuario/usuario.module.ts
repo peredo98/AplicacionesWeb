@@ -16,6 +16,8 @@ import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PoliciesComponent } from './policies/policies.component';
+import { GraficasUsuario2Component } from './graficas-usuario2/graficas-usuario2.component';
+import { GraficasUsuario3Component } from './graficas-usuario3/graficas-usuario3.component';
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { PoliciesComponent } from './policies/policies.component';
                 HeaderNavbarComponent,
                 HomeComponent,
                 HomeCarouselComponent,
-                ListaEncuestasUsuarioComponent
+                ListaEncuestasUsuarioComponent,
+                GraficasUsuario2Component,
+                GraficasUsuario3Component
                 ],
   imports: [
     CommonModule,
