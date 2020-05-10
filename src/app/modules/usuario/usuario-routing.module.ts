@@ -3,8 +3,8 @@ import { Routes, RouterModule } from '@angular/router'; // CLI imports router
 import { EstadisticasUsuarioComponent } from './estadisticas-usuario/estadisticas-usuario.component';
 import { ListaEncuestasUsuarioComponent } from './lista-encuestas-usuario/lista-encuestas-usuario.component';
 import { ContestarEncuestaComponent } from './contestar-encuesta/contestar-encuesta.component';
-import { AboutComponent } from 'src/app/about/about.component';
-import { PoliciesComponent } from 'src/app/policies/policies.component';
+import { PoliciesComponent } from './policies/policies.component';
+import { AboutComponent } from './about/about.component';
 import { SignupComponent } from 'src/app/signup/signup.component';
 import { LoginComponent } from 'src/app/login/login.component';
 import { HomeComponent } from './home/home.component';

@@ -14,9 +14,15 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { ListaEncuestasAdminComponent } from './lista-encuestas-admin/lista-encuestas-admin.component';
 import { HomeComponent } from './home/home.component';
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
+import { AboutComponent } from './about/about.component';
+import { PoliciesComponent } from './policies/policies.component';
+import { GraficasAdmin2Component } from './graficas-admin2/graficas-admin2.component';
+import { GraficasAdmin3Component } from './graficas-admin3/graficas-admin3.component';
 
 @NgModule({
-  declarations: [CrearEncuestasComponent, 
+  declarations: [AboutComponent,
+                PoliciesComponent,
+                CrearEncuestasComponent, 
                 CrearPreguntaComponent, 
                 EncuestasAdminComponent, 
                 EstadisticasAdminComponent, 
@@ -27,7 +33,9 @@ import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
                 HeaderNavbarComponent, 
                 HomeComponent,
                 HomeCarouselComponent,
-                ListaEncuestasAdminComponent],
+                ListaEncuestasAdminComponent,
+                GraficasAdmin2Component,
+                GraficasAdmin3Component],
   imports: [
     CommonModule,
     AdministradorRoutingModule,

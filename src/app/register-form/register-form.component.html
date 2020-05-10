@@ -2,48 +2,48 @@
     <form class = 'form_signup col-lg-8 col-sm-8 col-10'>
         <div class="form-row">
         <div class="col-lg-6 col-12 mb-3">
-            <label for="inputUsuario">Nombre/s:</label>
-            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario o correo electrónico" required>
+            <label for="inputUsuario" i18n>Nombre/s:</label>
+            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario o correo electrónico" required i18n-placeholder>
         </div>
         <div class="col-lg-6 col-12 mb-3">
-            <label for="inputAMaterno">Apellido materno:</label>
-            <input type="text" class="form-control" id="inputAMaterno" placeholder="Apellido materno" required>
+            <label for="inputAMaterno" i18n>Apellido materno:</label>
+            <input type="text" class="form-control" id="inputAMaterno" placeholder="Apellido materno" required i18n-placeholder>
         </div>
         </div>
         <div class="form-row">
         <div class="col-lg-6 col-12 mb-3">
-            <label for="inputAPaterno">Apellido paterno:</label>
-            <input type="text" class="form-control" id="inputAPaterno" placeholder="Apellido paterno" required>
+            <label for="inputAPaterno" i18n>Apellido paterno:</label>
+            <input type="text" class="form-control" id="inputAPaterno" placeholder="Apellido paterno" required i18n-placeholder>
         </div>
         <div class="col-lg-2 col-12 mb-3">
-            <label for="sexo">Sexo:</label>
+            <label for="sexo" i18n>Sexo:</label>
             <select id="sexo" class="form-control">
-            <option selected>M</option>
-            <option>F</option>
-            <option>Otro</option>
+            <option selected i18n>M</option>
+            <option i18n>F</option>
+            <option i18n>Otro</option>
             </select>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-3">
-            <label for="birthday">Fecha de nacimiento:</label>
+            <label for="birthday" i18n>Fecha de nacimiento:</label>
             <input type="date" class="form-control" id="birthday" name="birthday">
         </div>
         </div>
         <div class="form-row">
         <div class="col-lg-4 col-md-6 col-12 mb-3">
-            <label for="inputContraseña">Contraseña:</label>
-            <input type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" required>
+            <label for="inputContraseña" i18n>Contraseña:</label>
+            <input type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" required i18n-placeholder>
         </div>
         <div class="form-group col-lg-4 col-md-6 col-12">
-            <label for="inputCiudad">Ciudad:</label>
+            <label for="inputCiudad" i18n>Ciudad:</label>
             <select id="inputCiudad" class="form-control">
-            <option selected>Eligir...</option>
+            <option selected i18n>Eligir...</option>
             <option>...</option>
             </select>
         </div>
         <div class="form-group col-lg-4 col-md-6 col-12">
-        <label for="inputEstado">Estado:</label>
+        <label for="inputEstado" i18n>Estado:</label>
         <select id="inputEstado" class="form-control">
-            <option selected>Elegir...</option>
+            <option selected i18n>Elegir...</option>
             <option>...</option>
         </select>
         </div>
@@ -51,7 +51,7 @@
         <div class="form-group">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="inputTerminos" required>
-            <label class="form-check-label" for="inputTerminos">
+            <label class="form-check-label" for="inputTerminos" i18n>
             Aceptar <a href ="#policiesModal" data-toggle="modal" data-target="#policiesModal"> términos y condiciones</a>
             </label>
         </div>
@@ -61,21 +61,21 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Términos y condiciones</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle" i18n>Términos y condiciones</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <div class ="p-2">
-                    <h5> Información relevante </h5>
-                    <p class = "pt-1">
+                    <h5 i18n> Información relevante </h5>
+                    <p class = "pt-1" i18n>
                         Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.
                     </p>
                 </div>
                 <div class ="p-2">
-                    <h5> Propiedad</h5>
-                    <p class = "pt-1">
+                    <h5 i18n> Propiedad</h5>
+                    <p class = "pt-1" i18n>
                         Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios 
                         son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, 
                         expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo, 
@@ -83,27 +83,27 @@
                     </p>
                 </div>
                 <div class ="p-2">
-                    <h5> Comprobación antifraude</h5>
-                    <p class = "pt-1">
+                    <h5 i18n> Comprobación antifraude</h5>
+                    <p class = "pt-1" i18n>
                             El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.
                     </p>
                 </div>
                 <div class = "p-2">
-                        <h5> Privacidad </h5>
-                        <p class = "pt-1">
+                        <h5 i18n> Privacidad </h5>
+                        <p class = "pt-1" i18n>
                             Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.
                         </p>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" i18n>Cerrar</button>
             </div>
             </div>
         </div>
         </div>
         <div class = 'submission_signup'>
-        <button class="btn btn-primary col-lg-4" type="submit">Registrarse</button>
-        <p class = 'change_login pt-1 text-center'>¿Ya estás registrado? <a href="./login.html">Inicia sesión</a></p>
+        <button class="btn btn-primary col-lg-4" type="submit" i18n>Registrarse</button>
+        <p class = 'change_login pt-1 text-center' i18n>¿Ya estás registrado? <a routerLink="/login" routerLinkActive="active current">Inicia sesión</a></p>
         </div>
     </form>
 </div>
