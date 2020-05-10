@@ -19,6 +19,14 @@ import { AdministradorModule } from './modules/administrador/administrador.modul
 import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { HomeComponent } from './home/home.component';
 
+import {registerLocaleData} from '@angular/common'; 
+import localeMX from '@angular/common/locales/es-MX'; 
+import localeUS from '@angular/common/locales/en'; 
+
+registerLocaleData(localeMX, 'es-MX');     
+registerLocaleData(localeUS, 'en');
+
+
 @NgModule({
   declarations: [
     AppComponent,

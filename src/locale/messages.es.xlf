@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="fe78f8aad91641dc55b11e5d345fce5ec5fb42cb" datatype="html">
+        <source> ¿Quienes somos? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/about/about.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/about/about.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="85e6b40c41906d39cca22877120199342a9c7d4f" datatype="html">
+        <source>
+                                Nosotros somos 3 estudiantes del Tecnológico de Monterrey cursando la carrera de Ingeniería en Tecnologías Computacionales. Nuestro objetivo
+                                es crear sistemas que beneficien y sean de utilidad para la comunidad a nuestro alrededor.
+                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/about/about.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/about/about.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d855a712c5e348295c6dbcbb0b5e0142a9e08d5e" datatype="html">
+        <source> ¿Para que sirve el sitio web? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/about/about.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/about/about.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b157c6a8af1a5ef8898f5fb3aa3e2fabad400146" datatype="html">
+        <source>
+                                En este sitio web los ciudadanos podrán ver las votaciones que se realizarán en las comunidades de la república mexicana.
+                                El objetivo del sistema es crear una forma de realizar votaciones a nivel municipal, federal y estatal de manera sencilla y
+                                rápida, segura y confiable desde cualquier lugar.
+                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/about/about.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/about/about.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3ee4a3cd0bf5224efc47024a965b257b42c41fa" datatype="html">
+        <source>
+                            Al finalizar el periodo de cada votación, se realizarán diferentes
+                            gráficas y estadísticas para visualizar mejor los resultados de cada votación.
+                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/about/about.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/about/about.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b0a873a19757f07c110ef3af02e1bf02f565a6a" datatype="html">
+        <source> ¿El sitio web seguro? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/about/about.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/about/about.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4a11ab5cac4018de1286f57e8a9ec086d3b63dc7" datatype="html">
+        <source>Los usuarios podrán acceder al sistema de votaciones creando una cuenta
+                                y nos aseguraremos que el usuario es apto para votar mediante la petición del
+                                código QR que se encuentra en las credenciales para votar del INE, de esta
+                                manera nos aseguraremos de que la persona que quiere realizar el voto es apta
+                                para poder votar.
+                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/about/about.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/about/about.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35771a32f9ca3958ed7b3e59034ac05c04e35870" datatype="html">
+        <source>Copyright © 2020 - Todos los derechos reservados</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="81e01518613e31e706d17e148284e010650ab0d2" datatype="html">
+        <source>Términos y condiciones</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/footer/footer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4bd49be0ed17bd48434c2cbb05f520e999f9491b" datatype="html">
+        <source>Sobre nosotros</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/footer/footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dc3a3d9e92c728b6dbac360441a391d3cb7aaca2" datatype="html">
+        <source>Contacto: correo electrónico: correo@gmail.com</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/footer/footer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/footer/footer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08b44de178cc848fa0470cb3c99ba0775551c0bf" datatype="html">
+        <source> 
+                Acceder A Votar
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0e32a722df8cd17db8a1f7dcd42f69506ab2da5" datatype="html">
+        <source> 
+                        Términos y condiciones de uso
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e55512da74195ed04e4f34e2aab7a951356b683" datatype="html">
+        <source> Información relevante </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9456b4cdf52002104f12c93c48423ae3ee7163d4" datatype="html">
+        <source>
+                        Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75dd3d074b6ac9f4465be8ac54c8aa007da73c24" datatype="html">
+        <source> Propiedad</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="550b260261d6be2cad826a3615215e50194b4fe6" datatype="html">
+        <source>
+                        Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios 
+                        son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, 
+                        expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo, 
+                        pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b06a2601fc0ad89f571459458e5b682ab9c5dee7" datatype="html">
+        <source> Comprobación antifraude</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1c071250d829bb555b393fb6848e0654bd426428" datatype="html">
+        <source> Privacidad </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49b0681215bfb7ed31cdb66a969978d4e482c18f" datatype="html">
+        <source>
+                            Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.
+                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/policies/policies.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2407caee8cfb9682d2b38eb59151e13b5a163250" datatype="html">
+        <source> 
+            Llena los campos para registrarte
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/signup/signup.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1402fe69531fdaa06ca9646361b9f9c9f6657a04" datatype="html">
+        <source>Usuario o correo electrónico</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e369e13629132e32dcd958b82261059243f21d58" datatype="html">
+        <source>Contraseña</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46bb05e815178e8a9198732af5a0c77c9da9348c" datatype="html">
+        <source>
+          Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52b3bec73ba84bdfb6171c9e5e3dcec6ae3b8b82" datatype="html">
+        <source>
+                    Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2d6c8503a7c0f439a8d00db0887f60f582306e0" datatype="html">
+        <source>
+                    Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios 
+                    son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, 
+                    expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo, 
+                    pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3866c3029ebf0f6553b0fc632bab674137f8514" datatype="html">
+        <source>
+                        El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.
+                </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="44d7172a31e8e02adc37d015a242308ba88d5f4f" datatype="html">
+        <source>
+                        Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0acf4e0f9350f920b529a38364281d337c54edfd" datatype="html">
+        <source>Cerrar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ed5152cb0a28da5c5c599672ca08fed31d55e939" datatype="html">
+        <source>Inicar sesión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7cc938312b410abff161a22fa9fd9331c4c56a91" datatype="html">
+        <source>¿Aún no tienes cuenta? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Regístrate<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3bef7603c5d4e834dc9fe14e054c905f6c8cdb2b" datatype="html">
+        <source>Nombre/s:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c19b4c12101af7934e40872a897aace75f030d08" datatype="html">
+        <source>Apellido materno:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ac4c8e5fc638b3c11f5bce2b104fb0ee1e07e61" datatype="html">
+        <source>Apellido materno</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="47114eb8004fb84e6dfd604c07c125fb5c9bb013" datatype="html">
+        <source>Apellido paterno:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9084ae4a93dd3e0749cb3d083d5407effd12a7bb" datatype="html">
+        <source>Apellido paterno</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06d93979a3740a989e5fff09949bbc22f978ed04" datatype="html">
+        <source>Sexo:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8e2238fb496d80e13712af1a560df68f812c19f0" datatype="html">
+        <source>M</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fef7badee930e7bdb8798ad4262e3e6468922c95" datatype="html">
+        <source>F</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c897a893aa9a9877e22ff0968d5a401f042d97d" datatype="html">
+        <source>Otro</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29112488d3aabca09f858cd0afb2f4001a0f317b" datatype="html">
+        <source>Fecha de nacimiento:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c756fa88e50f6d04759fb7b5db46ce313504208f" datatype="html">
+        <source>Contraseña:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e31ba1e18bc9db791f9a81206233042f324dd6a4" datatype="html">
+        <source>Ciudad:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ce44830768131a7262f713623237c9db1ea84b6" datatype="html">
+        <source>Eligir...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6af459f444da8b576f25fc9727b913ed7e6aea51" datatype="html">
+        <source>Estado:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0240df600dca8a480e81498f7b3947422856bb80" datatype="html">
+        <source>Elegir...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4a888a8adeca2bb7c845cd694748185f4d5d216d" datatype="html">
+        <source>
+            Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="209db6b0aae83827c3ede324044eacd245427bc2" datatype="html">
+        <source>
+                            El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/policies/policies.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/policies/policies.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28c0f4e51cd46c99c0eb24ace953b810f9392691" datatype="html">
+        <source>Registrarse</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="db70d97999b4a855dd7663f3b7f2e6d7136a2896" datatype="html">
+        <source>¿Ya estás registrado? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Inicia sesión<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45a4b797ab6931fb10ed4ad33c49a77582db3db8" datatype="html">
+        <source>Inicio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="178aa14d8ee687d41b9be03758b6983fcf628e4e" datatype="html">
+        <source>Iniciar sesión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35c3ac69bd8a54dd611bf4814c35d23870230e71" datatype="html">
+        <source>¡No se encontró la pagina!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/page-not-found/page-not-found.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cf0b009186b1b0a54a5e2e96300a3d0198f74c44" datatype="html">
+        <source>Encuestas en línea</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="be8578d298c50eb9af28e2a23b84fbac71a6c43d" datatype="html">
+        <source>Con nuestra página podras contribuir a tomar resultados para ver la situación del país
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f823174d477541b68f71fe113b2d7428e4c18dfd" datatype="html">
+        <source>Ver resultados</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home/home.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home/home.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12aa96dbac592ce8987018884be430b5986af544" datatype="html">
+        <source>Con nosotros puedes ver las estadisticas y resultados transparentes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49e7e52aa17194632afa539b9c4aef8f830f1304" datatype="html">
+        <source>Ver resultados claros</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="015ebecf1baabb4172a7afb7d784d28815cd549b" datatype="html">
+        <source>Además proveemos de gráficas para ver los resultados de manera clara</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home-carousel/home-carousel.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da02e6c281bdf8bbb25cb9b621854e08569e500e" datatype="html">
+        <source>Contestar encuestas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1038e00b43a5b6c045d82294e3884075092c1531" datatype="html">
+        <source>Proveemos a los ciudadanos de encuestas oficiales sobre su opinión de el desempeño del gobierno en distintas áreas.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home/home.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12169eafee3c399e538f903f10476fbba5ac3072" datatype="html">
+        <source>Damos resultados transparentes sobre las encuestas de nuestros ciudadanos.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home/home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac1bb10477ca51b69af847d6374033cc2d555be1" datatype="html">
+        <source>Estadísticas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home/home.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0f4da5432278994c01af6aad7233af49503cefa" datatype="html">
+        <source>Estadísticas para facilitar como se observan los resultados.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c8bee7f8a75670ef4269947b246f1eceab48aea6" datatype="html">
+        <source> 
+                Crear Encuesta
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/crear-encuestas/crear-encuestas.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8eb117879e5b0d6097173d6cd9759f6b43a24e6" datatype="html">
+        <source>Agregar Pregunta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/crear-encuestas/crear-encuestas.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3442cfde4137725031070ea97d7a5a0c20bfe3bc" datatype="html">
+        <source>Crear encuesta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/crear-encuestas/crear-encuestas.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fc7b44268e9c9706a93646bb08ac8c57e674906e" datatype="html">
+        <source>Pregunta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/crear-pregunta/crear-pregunta.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17364f4f7ed00e7d3ff67bb10a4af659c3e79e60" datatype="html">
+        <source>
+            Número de opciones
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/crear-pregunta/crear-pregunta.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04e1e35a6224490b098259dc4e478090f129d70c" datatype="html">
+        <source>Opciones</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/crear-pregunta/crear-pregunta.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2cb6b64c7f5b4cf6d66ab84af2f4d4d8b818724" datatype="html">
+        <source>Encuesta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b1908ee262f54621e8318b2ebcdedbb0ccff630" datatype="html">
+        <source>Fecha de cierre</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60e66ea04f0ee6204f4fcdc65a878b10b5ba7697" datatype="html">
+        <source>Acción</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b14f13bc957c5259b650fdc0f0602ca2ef1f3628" datatype="html">
+        <source> 
+                        Estadísticas de Encuesta
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1c20fa2cc4e0872f2fd9d2132cd34c09783a3f8a" datatype="html">
+        <source>Regresar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01466f0cafc292b2cc004de93f85e81b3da7fb4b" datatype="html">
+        <source>Publicar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06c00e1a3aa89d98cb17a9d25472650637f048c9" datatype="html">
+        <source>Fecha de creación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>01/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="41a3378fae1cfd0afeb1dd6181b336f094a6ddde" datatype="html">
+        <source>Fecha de publicación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/fechas-usuario/fechas-usuario.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29a0b76ccd0b2fcaa4f812e999ee87bd0f0a718a" datatype="html">
+        <source>Fecha de cierre: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/03/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/fechas-usuario/fechas-usuario.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e85bd1b28af2a8a79a1e4260e15d7f97412a8f53" datatype="html">
+        <source>Ver Encuestas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ff406c0d2192990348a00d97ae1635fc25a503a" datatype="html">
+        <source>Crear Encuestas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8c7dd9c8070c78825b946045deca3b531829043" datatype="html">
+        <source>Estadisticas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93491dbc422da2754ba6937a4e757196996fa4c6" datatype="html">
+        <source>Cerrar Sesión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94daa37b96ee5921b06603892373bbb33768b0ff" datatype="html">
+        <source>¿Qué puedes hacer como administrador?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97d1e98ebb7231967ae8f910b18244ca8c28ee19" datatype="html">
+        <source>Crear encuestas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49b4e6032bdd162617ab25e86da321b59c4a4660" datatype="html">
+        <source>Como administrador puedes crear encuestas, eliminarlas y publicarlas a los usuarios.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home/home.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fcecde975567425d63715daf4204e2bc00f7961" datatype="html">
+        <source>Personalizar Encuesta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home/home.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c48a967d7412c3d2e7ce7c95d484c08f66f7edc" datatype="html">
+        <source>Al crear la encuesta tu decides que preguntas contendrá y las opciones que el usuario puede elegir.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home/home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42434676b889006763e2583a6c17a272e91d8e72" datatype="html">
+        <source>También puedes ver los resultados de cada encuesta después de que fue cerrada.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f859b6aa3656bebe492d6f63db36431683407b79" datatype="html">
+        <source> 
+                            Lista de encuestas
+                        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/lista-encuestas-admin/lista-encuestas-admin.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/lista-encuestas-usuario/lista-encuestas-usuario.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16fa2947a0d75383f83a616b9b07ca1f14739231" datatype="html">
+        <source>Crear nueva encuesta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/lista-encuestas-admin/lista-encuestas-admin.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b37cf4918d9277bec9af92f520574af203f2a856" datatype="html">
+        <source>Fecha de publicación</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c89f35330691bfdc42d2195d0b1493ba4b358ff1" datatype="html">
+        <source>Ver encuesta</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9d189e51145762dc3874e10d0b31dbe2f7a89371" datatype="html">
+        <source>Resultados</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b1a3585c9fe1aaa11da4b6e8fc42d99f84a4434c" datatype="html">
+        <source> 
+                        Estadísticas de Encuesta  
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/estadisticas-usuario/estadisticas-usuario.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33358a9cd518a5a955241d9b3a3238c1ce11a7ed" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/footer/footer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11de93f4b1a7ced5ec6dcaaf79496a6a01bc65ea" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Sobre nosotros<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/footer/footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbaa35b973a97fefb1f6ee2acfd2811f87a5e90a" datatype="html">
+        <source>Encuestas</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e1ec80d1cecc8c466276dce7fc8caa95a6818ffe" datatype="html">
+        <source>Cerrar sesión</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/header-navbar/header-navbar.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c289f5d5dbed37c6d955be677f2dd0f4ff081f38" datatype="html">
+        <source>¿Qué hacemos?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
