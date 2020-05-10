@@ -25,7 +25,7 @@ $styleTitleContainerPadding: 40px;
 $styleMainContainerFlexCenter: column;
 $styleMainContainerPadding: 0;
 $styleMainContainerMargin:0;
-$styleMainContainerHeight:100%;
+$styleMainContainerHeight:100vh;;
 $styleMainContainerFlex:1;
 $styleWrapperDisplay:flex;
 $styleWrapperFlex:1;
@@ -55,7 +55,7 @@ $styleWrapperFlex:1;
     @include flexCenter($styleMainContainerFlexCenter);
     padding: $styleMainContainerPadding;
     margin: $styleMainContainerMargin;
-    height: $styleMainContainerHeight;
+    min-height: $styleMainContainerHeight;
     flex: $styleMainContainerFlex;
 }
 

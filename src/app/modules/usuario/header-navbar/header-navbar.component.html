@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a routerLink="/usuario" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a routerLink="/usuario" routerLinkActive="active current" [routerLinkActiveOptions]="{ exact: true }" class="nav-item nav-link" i18n>Inicio</a>
                 <a routerLink="/usuario/listaEncuestas" routerLinkActive="active current" class="nav-item nav-link" i18n>Encuestas</a>
                 <a routerLink="/usuario/estadisticas" routerLinkActive="active current" class="nav-item nav-link" i18n>Estadisticas</a>
             </div>

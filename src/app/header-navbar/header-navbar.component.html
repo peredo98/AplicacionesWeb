@@ -9,7 +9,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a routerLink="/" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
             </div>
             <div class="navbar-nav ml-auto">
                 <div class="nav-item dropdown">
