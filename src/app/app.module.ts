@@ -42,6 +42,9 @@ import { HomeComponent } from './home/home.component';
     AdministradorModule,
     UsuarioModule
   ],
+  //exports : [
+    //Componentes a reutilizar (about,etc)
+  //],
   providers: [],
   bootstrap: [AppComponent]
 })
