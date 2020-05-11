@@ -12,14 +12,14 @@ import { PoliciesComponent } from '../shared/policies/policies.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, data: {section : 'usuario'}},
-  { path: 'about', component: AboutComponent, data: {section : 'usuario'}},
-  { path: 'policies', component: PoliciesComponent, data: {section : 'usuario'}},
-  { path: 'signup', component: SignupComponent},
-  { path: 'login', component: LoginComponent},
-  { path: 'estadisticas', component: EstadisticasUsuarioComponent},
-  { path: 'listaEncuestas', component: ListaEncuestasUsuarioComponent},
-  { path: 'contestarEncuesta', component: ContestarEncuestaComponent}];
+{ path: '', component: HomeComponent, data: {section : 'usuario', animation:'isHome'}},
+{ path: 'about', component: AboutComponent, data: {section : 'usuario', animation:'isAbout'}},
+{ path: 'policies', component: PoliciesComponent, data: {section : 'usuario', animation:'isPolicies'}},
+{ path: 'signup', component: SignupComponent, data:{animation: 'isSignup'}},
+{ path: 'login', component: LoginComponent, data:{animation: 'isLogin'}},
+{ path: 'estadisticas', component: EstadisticasUsuarioComponent, data:{animation: 'isEstadisticas'}},
+{ path: 'listaEncuestas', component: ListaEncuestasUsuarioComponent, data:{animation: 'isListaEncuentas'}},
+{ path: 'contestarEncuesta', component: ContestarEncuestaComponent, data:{animation: 'isContestarEncuestas'}}];
 
 
 @NgModule({
