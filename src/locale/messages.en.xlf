@@ -1,102 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="es" target-language="es" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="fe78f8aad91641dc55b11e5d345fce5ec5fb42cb" datatype="html">
-        <source> ¿Quienes somos? </source>
-        <target> Whoa are we? </target>
+        <target>About us?</target>
+        <source>¿Quienes somos?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/about/about.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="85e6b40c41906d39cca22877120199342a9c7d4f" datatype="html">
-        <source>Nosotros somos 3 estudiantes del Tecnológico de Monterrey cursando la carrera de Ingeniería en Tecnologías Computacionales. Nuestro objetivo es crear sistemas que beneficien y sean de utilidad para la comunidad a nuestro alrededor.
-                        </source>
-        <target>Nosotros somos 3 estudiantes del Tecnológico de Monterrey cursando la carrera de Ingeniería en Tecnologías Computacionales. Nuestro objetivo es crear sistemas que beneficien y sean de utilidad para la comunidad a nuestro alrededor.
-                        </target>
+        <target>We are 3 students from the Tecnológico de Monterrey studying a degree in Computer Technology Engineering. Our goal is to create systems that benefit and are useful to the community around us.</target>
+        <source>Nosotros somos 3 estudiantes del Tecnológico de Monterrey cursando la carrera de Ingeniería en Tecnologías Computacionales. Nuestro objetivo                                 es crear sistemas que beneficien y sean de utilidad para la comunidad a nuestro alrededor.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/about/about.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d855a712c5e348295c6dbcbb0b5e0142a9e08d5e" datatype="html">
-        <source> ¿Para que sirve el sitio web? </source>
-        <target> ¿Para que sirve el sitio web? </target>
+        <target>What is the website for?</target>
+        <source>¿Para que sirve el sitio web?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/about/about.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b157c6a8af1a5ef8898f5fb3aa3e2fabad400146" datatype="html">
-        <source>En este sitio web los ciudadanos podrán ver las votaciones que se realizarán en las comunidades de la república mexicana. El objetivo del sistema es crear una forma de realizar votaciones a nivel municipal, federal y estatal de manera sencilla y rápida, segura y confiable desde cualquier lugar.
-                        </source>
-        <target>En este sitio web los ciudadanos podrán ver las votaciones que se realizarán en las comunidades de la república mexicana. El objetivo del sistema es crear una forma de realizar votaciones a nivel municipal, federal y estatal de manera sencilla y rápida, segura y confiable desde cualquier lugar.
-                        </target>
+        <target>On this website, citizens will be able to see the voting that will take place in the communities of the Mexican Republic. The goal of the system is to create a way to conduct voting at the municipal, federal and state levels simply, quickly, safely and reliably from anywhere.</target>
+        <source>En este sitio web los ciudadanos podrán ver las votaciones que se realizarán en las comunidades de la república mexicana.                                 El objetivo del sistema es crear una forma de realizar votaciones a nivel municipal, federal y estatal de manera sencilla y                                 rápida, segura y confiable desde cualquier lugar.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/about/about.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b3ee4a3cd0bf5224efc47024a965b257b42c41fa" datatype="html">
-        <source>Al finalizar el periodo de cada votación, se realizarán diferentes gráficas y estadísticas para visualizar mejor los resultados de cada votación.
-                        </source>
-        <target>Al finalizar el periodo de cada votación, se realizarán diferentes gráficas y estadísticas para visualizar mejor los resultados de cada votación.
-                        </target>
+        <target>At the end of the period of each vote, different graphs and statistics will be made to better visualize the results of each vote.</target>
+        <source>Al finalizar el periodo de cada votación, se realizarán diferentes                             gráficas y estadísticas para visualizar mejor los resultados de cada votación.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/about/about.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7b0a873a19757f07c110ef3af02e1bf02f565a6a" datatype="html">
-        <source> ¿El sitio web seguro? </source>
-        <target> ¿El sitio web seguro? </target>
+        <target>Is the website secure?</target>
+        <source>¿El sitio web seguro?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/about/about.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4a11ab5cac4018de1286f57e8a9ec086d3b63dc7" datatype="html">
-        <source>Los usuarios podrán acceder al sistema de votaciones creando una cuenta
-y nos aseguraremos que el usuario es apto para votar mediante la petición del código QR que se encuentra en las credenciales para votar del INE, de esta
-manera nos aseguraremos de que la persona que quiere realizar el voto es apta para poder votar.
-                        </source>
-        <target>Los usuarios podrán acceder al sistema de votaciones creando una cuenta
-y nos aseguraremos que el usuario es apto para votar mediante la petición del código QR que se encuentra en las credenciales para votar del INE, de esta
-manera nos aseguraremos de que la persona que quiere realizar el voto es apta para poder votar.
-                        </target>
+        <target>Users will be able to access the voting system by creating an account and we will ensure that the user is able to vote by requesting the QR code found in the INE voting credentials, in this way we will ensure that the person who wants to vote the vote is suitable to be able to vote.</target>
+        <source>Los usuarios podrán acceder al sistema de votaciones creando una cuenta                                y nos aseguraremos que el usuario es apto para votar mediante la petición del                                 código QR que se encuentra en las credenciales para votar del INE, de esta                                 manera nos aseguraremos de que la persona que quiere realizar el voto es apta                                 para poder votar.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/about/about.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c289f5d5dbed37c6d955be677f2dd0f4ff081f38" datatype="html">
+        <target>What do we do?</target>
         <source>¿Qué hacemos?</source>
-        <target>¿Qué hacemos?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home/home.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="da02e6c281bdf8bbb25cb9b621854e08569e500e" datatype="html">
+        <target>Answer surveys</target>
         <source>Contestar encuestas</source>
-        <target>Contestar encuestas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home/home.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1038e00b43a5b6c045d82294e3884075092c1531" datatype="html">
+        <target>We provide citizens with official surveys on their opinion of government performance in different areas.</target>
         <source>Proveemos a los ciudadanos de encuestas oficiales sobre su opinión de el desempeño del gobierno en distintas áreas.</source>
-        <target>Proveemos a los ciudadanos de encuestas oficiales sobre su opinión de el desempeño del gobierno en distintas áreas.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home/home.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f823174d477541b68f71fe113b2d7428e4c18dfd" datatype="html">
+        <target>See results</target>
         <source>Ver resultados</source>
-        <target>Ver resultados</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home/home.component.html</context>
           <context context-type="linenumber">11</context>
@@ -107,82 +95,80 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="12169eafee3c399e538f903f10476fbba5ac3072" datatype="html">
+        <target>We give transparent results on the surveys of our citizens.</target>
         <source>Damos resultados transparentes sobre las encuestas de nuestros ciudadanos.</source>
-        <target>Damos resultados transparentes sobre las encuestas de nuestros ciudadanos.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home/home.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ac1bb10477ca51b69af847d6374033cc2d555be1" datatype="html">
+        <target>Statistics</target>
         <source>Estadísticas</source>
-        <target>Estadísticas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home/home.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c0f4da5432278994c01af6aad7233af49503cefa" datatype="html">
+        <target>Statistics to facilitate how the results are observed.</target>
         <source>Estadísticas para facilitar como se observan los resultados.</source>
-        <target>Estadísticas para facilitar como se observan los resultados.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home/home.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cf0b009186b1b0a54a5e2e96300a3d0198f74c44" datatype="html">
+        <target>Online surveys</target>
         <source>Encuestas en línea</source>
-        <target>Encuestas en línea</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home-carousel/home-carousel.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="be8578d298c50eb9af28e2a23b84fbac71a6c43d" datatype="html">
-        <source>Con nuestra página podras contribuir a tomar resultados para ver la situación del país
-            </source>
-        <target>Con nuestra página podras contribuir a tomar resultados para ver la situación del país
-            </target>
+        <target>With our page you can contribute to take results to see the situation in the country</target>
+        <source>Con nuestra página podras contribuir a tomar resultados para ver la situación del país</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home-carousel/home-carousel.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="12aa96dbac592ce8987018884be430b5986af544" datatype="html">
+        <target>With us you can see the statistics and transparent results</target>
         <source>Con nosotros puedes ver las estadisticas y resultados transparentes</source>
-        <target>Con nosotros puedes ver las estadisticas y resultados transparentes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home-carousel/home-carousel.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="49e7e52aa17194632afa539b9c4aef8f830f1304" datatype="html">
+        <target>See clear results</target>
         <source>Ver resultados claros</source>
-        <target>Ver resultados claros</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home-carousel/home-carousel.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="015ebecf1baabb4172a7afb7d784d28815cd549b" datatype="html">
+        <target>We also provide graphs to see the results clearly.</target>
         <source>Además proveemos de gráficas para ver los resultados de manera clara</source>
-        <target>Además proveemos de gráficas para ver los resultados de manera clara</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home-carousel/home-carousel.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="35771a32f9ca3958ed7b3e59034ac05c04e35870" datatype="html">
+        <target>Copyright © 2020 - All rights reserved</target>
         <source>Copyright © 2020 - Todos los derechos reservados</source>
-        <target>Copyright © 2020 - Todos los derechos reservados</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/footer/footer.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="81e01518613e31e706d17e148284e010650ab0d2" datatype="html">
+        <target>Terms and Conditions</target>
         <source>Términos y condiciones</source>
-        <target>Términos y condiciones</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/footer/footer.component.html</context>
           <context context-type="linenumber">7</context>
@@ -205,8 +191,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="4bd49be0ed17bd48434c2cbb05f520e999f9491b" datatype="html">
+        <target>About us</target>
         <source>Sobre nosotros</source>
-        <target>Sobre nosotros</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/footer/footer.component.html</context>
           <context context-type="linenumber">14</context>
@@ -221,16 +207,16 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="dc3a3d9e92c728b6dbac360441a391d3cb7aaca2" datatype="html">
+        <target>Contact: email: Correo@gmail.com</target>
         <source>Contacto: correo electrónico: correo@gmail.com</source>
-        <target>Contacto: correo electrónico: correo@gmail.com</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/footer/footer.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="45a4b797ab6931fb10ed4ad33c49a77582db3db8" datatype="html">
+        <target>Start</target>
         <source>Inicio</source>
-        <target>Inicio</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
           <context context-type="linenumber">12</context>
@@ -245,24 +231,24 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="e85bd1b28af2a8a79a1e4260e15d7f97412a8f53" datatype="html">
+        <target>See Surveys</target>
         <source>Ver Encuestas</source>
-        <target>Ver Encuestas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0ff406c0d2192990348a00d97ae1635fc25a503a" datatype="html">
+        <target>Create Polls</target>
         <source>Crear Encuestas</source>
-        <target>Crear Encuestas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e8c7dd9c8070c78825b946045deca3b531829043" datatype="html">
+        <target>Statistics</target>
         <source>Estadisticas</source>
-        <target>Estadisticas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
           <context context-type="linenumber">16</context>
@@ -273,24 +259,24 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="fbaa35b973a97fefb1f6ee2acfd2811f87a5e90a" datatype="html">
+        <target>Polls</target>
         <source>Encuestas</source>
-        <target>Encuestas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="178aa14d8ee687d41b9be03758b6983fcf628e4e" datatype="html">
+        <target>Log in</target>
         <source>Iniciar sesión</source>
-        <target>Iniciar sesión</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="93491dbc422da2754ba6937a4e757196996fa4c6" datatype="html">
+        <target>Sign off</target>
         <source>Cerrar Sesión</source>
-        <target>Cerrar Sesión</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
           <context context-type="linenumber">31</context>
@@ -301,18 +287,16 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="a0e32a722df8cd17db8a1f7dcd42f69506ab2da5" datatype="html">
-        <source>Términos y condiciones de uso
-                    </source>
-        <target>Términos y condiciones de uso
-                    </target>
+        <target>Terms and conditions of use</target>
+        <source>Términos y condiciones de uso</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6e55512da74195ed04e4f34e2aab7a951356b683" datatype="html">
-        <source> Información relevante </source>
-        <target> Información relevante </target>
+        <target>Relevant information</target>
+        <source>Información relevante</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">12</context>
@@ -327,10 +311,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="9456b4cdf52002104f12c93c48423ae3ee7163d4" datatype="html">
-        <source>Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.
-                    </source>
-        <target>Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.
-                    </target>
+        <target>It is a necessary requirement for the use of the services offered on this site that you read and accept the following Terms and Conditions that are written below. The use of our services as well as the purchase of our products will imply that you have read and accepted the Terms and Conditions of Use in this document.</target>
+        <source>Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">13</context>
@@ -341,8 +323,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="75dd3d074b6ac9f4465be8ac54c8aa007da73c24" datatype="html">
-        <source> Propiedad</source>
-        <target> Propiedad</target>
+        <target>Property</target>
+        <source>Propiedad</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">18</context>
@@ -357,10 +339,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="550b260261d6be2cad826a3615215e50194b4fe6" datatype="html">
-        <source>Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.
-                    </source>
-        <target>Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.
-                    </target>
+        <target>You cannot declare intellectual or exclusive property to any of our services, modified or unmodified. All services are the property of the content providers. Unless otherwise specified, our products are provided without warranty of any kind, expressed or implied. In no case shall administrators be liable for any damages including, but not limited to, direct, indirect, special, incidental or consequential damages or other losses resulting from the use or the impossibility of using our services.</target>
+        <source>Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios                          son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía,                          expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo,                          pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">19</context>
@@ -371,8 +351,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="b06a2601fc0ad89f571459458e5b682ab9c5dee7" datatype="html">
-        <source> Comprobación antifraude</source>
-        <target> Comprobación antifraude</target>
+        <target>Anti-fraud check</target>
+        <source>Comprobación antifraude</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">27</context>
@@ -387,8 +367,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="1c071250d829bb555b393fb6848e0654bd426428" datatype="html">
-        <source> Privacidad </source>
-        <target> Privacidad </target>
+        <target>Privacy</target>
+        <source>Privacidad</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">33</context>
@@ -403,10 +383,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="49b0681215bfb7ed31cdb66a969978d4e482c18f" datatype="html">
-        <source>Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.
-                        </source>
-        <target>Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.
-                        </target>
+        <target>This website titulositio.com guarantees that the personal information you send has the necessary security. The information entered by the user is completely confidential and no other person except administrators can use it.</target>
+        <source>Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/policies/policies.component.html</context>
           <context context-type="linenumber">34</context>
@@ -417,28 +395,24 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="08b44de178cc848fa0470cb3c99ba0775551c0bf" datatype="html">
-        <source>Acceder A Votar
-            </source>
-        <target>Acceder A Votar
-            </target>
+        <target>Access to Vote</target>
+        <source>Acceder A Votar</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login/login.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="27e2e6b37c9a2b9fd1196ea47e34693168438ce9" datatype="html">
-        <source>Llena los campos para registrarte
-            </source>
-        <target>Llena los campos para registrarte
-            </target>
+        <target>Fill in the fields to register</target>
+        <source>Llena los campos para registrarte</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/signup/signup.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1402fe69531fdaa06ca9646361b9f9c9f6657a04" datatype="html">
+        <target>User or email</target>
         <source>Usuario o correo electrónico</source>
-        <target>Usuario o correo electrónico</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">5</context>
@@ -453,8 +427,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="e369e13629132e32dcd958b82261059243f21d58" datatype="html">
+        <target>Password</target>
         <source>Contraseña</source>
-        <target>Contraseña</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">11</context>
@@ -469,58 +443,48 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="46bb05e815178e8a9198732af5a0c77c9da9348c" datatype="html">
-        <source>Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-        </source>
-        <target>Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-        </target>
+        <target>[object Object]</target>
+        <source>[object Object]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="52b3bec73ba84bdfb6171c9e5e3dcec6ae3b8b82" datatype="html">
-        <source>Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.
-                </source>
-        <target>Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.
-                </target>
+        <target>It is a necessary requirement for the use of the services offered on this site that you read and accept the following Terms and Conditions that are written below. The use of our services as well as the purchase of our products will imply that you have read and accepted the Terms and Conditions of Use in this document.</target>
+        <source>Es requisito necesario para el uso de los servicios que se ofrecen en este sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestros servicios así como la compra de nuestros productos implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente documento.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f2d6c8503a7c0f439a8d00db0887f60f582306e0" datatype="html">
-        <source>Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.
-                </source>
-        <target>Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía, expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo, pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.
-                </target>
+        <target>You cannot declare intellectual or exclusive property to any of our services, modified or unmodified. All services are the property of the content providers. Unless otherwise specified, our products are provided without warranty of any kind, expressed or implied. In no case shall administrators be liable for any damages including, but not limited to, direct, indirect, special, incidental or consequential damages or other losses resulting from the use or the impossibility of using our services.</target>
+        <source>Usted no puede declarar propiedad intelectual o exclusiva a ninguno de nuestros servicios, modificado o sin modificar. Todos los servicios                      son propiedad de los proveedores del contenido. En caso de que no se especifique lo contrario, nuestros productos se proporcionan sin ningún tipo de garantía,                      expresa o implícita. En ningún los administradores serán responsables de ningún daño incluyendo,                      pero no limitado a, daños directos, indirectos, especiales, fortuitos o consecuentes u otras pérdidas resultantes del uso o de la imposibilidad de utilizar nuestros pservicios.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a3866c3029ebf0f6553b0fc632bab674137f8514" datatype="html">
-        <source>El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.
-                </source>
-        <target>El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.
-                </target>
+        <target>The use of services by the client can be deferred for the anti-fraud verification. It can also be suspended for a longer time for a more rigorous investigation, to avoid fraudulent actions.</target>
+        <source>El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="44d7172a31e8e02adc37d015a242308ba88d5f4f" datatype="html">
-        <source>Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.
-                    </source>
-        <target>Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.
-                    </target>
+        <target>This website titulositio.com guarantees that the personal information you send has the necessary security. The information entered by the user is completely confidential and no other person except administrators can use it.</target>
+        <source>Este sitio web titulositio.com garantiza que la información personal que usted envía cuenta con la seguridad necesaria. La información ingresada por el usuario es totalmente confidencial y ninguna otra persona a excepción de los administradores podrán hacer uso de ésta.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">57</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0acf4e0f9350f920b529a38364281d337c54edfd" datatype="html">
+        <target>Close</target>
         <source>Cerrar</source>
-        <target>Cerrar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">63</context>
@@ -531,240 +495,232 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="ed5152cb0a28da5c5c599672ca08fed31d55e939" datatype="html">
+        <target>Log in</target>
         <source>Inicar sesión</source>
-        <target>Inicar sesión</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7cc938312b410abff161a22fa9fd9331c4c56a91" datatype="html">
-        <source>¿Aún no tienes cuenta? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Regístrate<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target>¿Aún no tienes cuenta? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Regístrate<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <target>[object Object]</target>
+        <source>[object Object]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3bef7603c5d4e834dc9fe14e054c905f6c8cdb2b" datatype="html">
+        <target>Names:</target>
         <source>Nombre/s:</source>
-        <target>Nombre/s:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c19b4c12101af7934e40872a897aace75f030d08" datatype="html">
+        <target>Mother's last name:</target>
         <source>Apellido materno:</source>
-        <target>Apellido materno:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5ac4c8e5fc638b3c11f5bce2b104fb0ee1e07e61" datatype="html">
+        <target>Mother's last name</target>
         <source>Apellido materno</source>
-        <target>Apellido materno</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="47114eb8004fb84e6dfd604c07c125fb5c9bb013" datatype="html">
+        <target>Last name:</target>
         <source>Apellido paterno:</source>
-        <target>Apellido paterno:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9084ae4a93dd3e0749cb3d083d5407effd12a7bb" datatype="html">
+        <target>Last name</target>
         <source>Apellido paterno</source>
-        <target>Apellido paterno</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06d93979a3740a989e5fff09949bbc22f978ed04" datatype="html">
+        <target>Sex:</target>
         <source>Sexo:</source>
-        <target>Sexo:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8e2238fb496d80e13712af1a560df68f812c19f0" datatype="html">
-        <source>M</source>
         <target>M</target>
+        <source>M</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fef7badee930e7bdb8798ad4262e3e6468922c95" datatype="html">
-        <source>F</source>
         <target>F</target>
+        <source>F</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2c897a893aa9a9877e22ff0968d5a401f042d97d" datatype="html">
+        <target>Other</target>
         <source>Otro</source>
-        <target>Otro</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="29112488d3aabca09f858cd0afb2f4001a0f317b" datatype="html">
+        <target>Birthdate:</target>
         <source>Fecha de nacimiento:</source>
-        <target>Fecha de nacimiento:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c756fa88e50f6d04759fb7b5db46ce313504208f" datatype="html">
+        <target>Password:</target>
         <source>Contraseña:</source>
-        <target>Contraseña:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e31ba1e18bc9db791f9a81206233042f324dd6a4" datatype="html">
+        <target>City:</target>
         <source>Ciudad:</source>
-        <target>Ciudad:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8ce44830768131a7262f713623237c9db1ea84b6" datatype="html">
+        <target>Choose ...</target>
         <source>Eligir...</source>
-        <target>Eligir...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6af459f444da8b576f25fc9727b913ed7e6aea51" datatype="html">
+        <target>State:</target>
         <source>Estado:</source>
-        <target>Estado:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0240df600dca8a480e81498f7b3947422856bb80" datatype="html">
+        <target>To choose...</target>
         <source>Elegir...</source>
-        <target>Elegir...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4a888a8adeca2bb7c845cd694748185f4d5d216d" datatype="html">
-        <source>Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-            </source>
-        <target>Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-            </target>
+        <target>[object Object]</target>
+        <source>[object Object]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="209db6b0aae83827c3ede324044eacd245427bc2" datatype="html">
-        <source>El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.
-                    </source>
-        <target>El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.
-                    </target>
+        <target>The use of services by the client can be deferred for the anti-fraud verification. It can also be suspended for a longer time for a more rigorous investigation, to avoid fraudulent actions.</target>
+        <source>El uso de servicios por el cliente puede ser aplazado para la comprobación antifraude. También puede ser suspendida por más tiempo para una investigación más rigurosa, para evitar acciones fraudulentas.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="28c0f4e51cd46c99c0eb24ace953b810f9392691" datatype="html">
+        <target>Check in</target>
         <source>Registrarse</source>
-        <target>Registrarse</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="db70d97999b4a855dd7663f3b7f2e6d7136a2896" datatype="html">
-        <source>¿Ya estás registrado? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Inicia sesión<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target>¿Ya estás registrado? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Inicia sesión<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <target>[object Object]</target>
+        <source>[object Object]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">106</context>
         </context-group>
       </trans-unit>
       <trans-unit id="35c3ac69bd8a54dd611bf4814c35d23870230e71" datatype="html">
+        <target>Page not found!</target>
         <source>¡No se encontró la pagina!</source>
-        <target>¡No se encontró la pagina!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/page-not-found/page-not-found.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c8bee7f8a75670ef4269947b246f1eceab48aea6" datatype="html">
-        <source>Crear Encuesta
-            </source>
-        <target>Crear Encuesta
-            </target>
+        <target>Create Survey</target>
+        <source>Crear Encuesta</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/crear-encuestas/crear-encuestas.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b8eb117879e5b0d6097173d6cd9759f6b43a24e6" datatype="html">
+        <target>Add Question</target>
         <source>Agregar Pregunta</source>
-        <target>Agregar Pregunta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/crear-encuestas/crear-encuestas.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3442cfde4137725031070ea97d7a5a0c20bfe3bc" datatype="html">
+        <target>Create survey</target>
         <source>Crear encuesta</source>
-        <target>Crear encuesta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/crear-encuestas/crear-encuestas.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fc7b44268e9c9706a93646bb08ac8c57e674906e" datatype="html">
+        <target>Question</target>
         <source>Pregunta</source>
-        <target>Pregunta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/crear-pregunta/crear-pregunta.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="17364f4f7ed00e7d3ff67bb10a4af659c3e79e60" datatype="html">
-        <source>Número de opciones
-        </source>
-        <target>Número de opciones
-        </target>
+        <target>Number of options</target>
+        <source>Número de opciones</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/crear-pregunta/crear-pregunta.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="04e1e35a6224490b098259dc4e478090f129d70c" datatype="html">
+        <target>Options</target>
         <source>Opciones</source>
-        <target>Opciones</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/crear-pregunta/crear-pregunta.component.html</context>
           <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f2cb6b64c7f5b4cf6d66ab84af2f4d4d8b818724" datatype="html">
+        <target>Survey</target>
         <source>Encuesta</source>
-        <target>Encuesta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
           <context context-type="linenumber">3</context>
@@ -775,8 +731,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="7b1908ee262f54621e8318b2ebcdedbb0ccff630" datatype="html">
+        <target>Deadline</target>
         <source>Fecha de cierre</source>
-        <target>Fecha de cierre</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
           <context context-type="linenumber">4</context>
@@ -787,50 +743,48 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="60e66ea04f0ee6204f4fcdc65a878b10b5ba7697" datatype="html">
+        <target>Action</target>
         <source>Acción</source>
-        <target>Acción</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b14f13bc957c5259b650fdc0f0602ca2ef1f3628" datatype="html">
-        <source>Estadísticas de Encuesta
-                    </source>
-        <target>Estadísticas de Encuesta
-                    </target>
+        <target>Survey Statistics</target>
+        <source>Estadísticas de Encuesta</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1c20fa2cc4e0872f2fd9d2132cd34c09783a3f8a" datatype="html">
+        <target>To return</target>
         <source>Regresar</source>
-        <target>Regresar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
           <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="01466f0cafc292b2cc004de93f85e81b3da7fb4b" datatype="html">
+        <target>To post</target>
         <source>Publicar</source>
-        <target>Publicar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
           <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06c00e1a3aa89d98cb17a9d25472650637f048c9" datatype="html">
-        <source>Fecha de creación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>01/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
-        <target>Fecha de creación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>01/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+        <target>[object Object]</target>
+        <source>[object Object]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="41a3378fae1cfd0afeb1dd6181b336f094a6ddde" datatype="html">
-        <source>Fecha de publicación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
-        <target>Fecha de publicación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+        <target>[object Object]</target>
+        <source>[object Object]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
           <context context-type="linenumber">7</context>
@@ -841,8 +795,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="29a0b76ccd0b2fcaa4f812e999ee87bd0f0a718a" datatype="html">
-        <source>Fecha de cierre: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/03/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
-        <target>Fecha de cierre: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/03/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+        <target>[object Object]</target>
+        <source>[object Object]</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
           <context context-type="linenumber">10</context>
@@ -853,10 +807,8 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="f859b6aa3656bebe492d6f63db36431683407b79" datatype="html">
-        <source>Lista de encuestas
-                        </source>
-        <target>Lista de encuestas
-                        </target>
+        <target>Survey list</target>
+        <source>Lista de encuestas</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/lista-encuestas-admin/lista-encuestas-admin.component.html</context>
           <context context-type="linenumber">8</context>
@@ -867,42 +819,40 @@ manera nos aseguraremos de que la persona que quiere realizar el voto es apta pa
         </context-group>
       </trans-unit>
       <trans-unit id="16fa2947a0d75383f83a616b9b07ca1f14739231" datatype="html">
+        <target>Create new survey</target>
         <source>Crear nueva encuesta</source>
-        <target>Crear nueva encuesta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/lista-encuestas-admin/lista-encuestas-admin.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b37cf4918d9277bec9af92f520574af203f2a856" datatype="html">
+        <target>Publication date</target>
         <source>Fecha de publicación</source>
-        <target>Fecha de publicación</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c89f35330691bfdc42d2195d0b1493ba4b358ff1" datatype="html">
+        <target>See survey</target>
         <source>Ver encuesta</source>
-        <target>Ver encuesta</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9d189e51145762dc3874e10d0b31dbe2f7a89371" datatype="html">
+        <target>Results</target>
         <source>Resultados</source>
-        <target>Resultados</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b1a3585c9fe1aaa11da4b6e8fc42d99f84a4434c" datatype="html">
-        <source>Estadísticas de Encuesta  
-                    </source>
-        <target>Estadísticas de Encuesta  
-                    </target>
+        <target>Survey Statistics</target>
+        <source>Estadísticas de Encuesta</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/usuario/estadisticas-usuario/estadisticas-usuario.component.html</context>
           <context context-type="linenumber">8</context>
