@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md fixed-top navbar-dark header-color">
+    <div class="container">
+        <div class="corner-ribbon top-left">Beta</div>
+        <a routerLink="/" routerLinkActive="active current" class="navbar-brand">
+            <img src="./assets/logo.png" height="36" alt="A votar">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav" [ngSwitch]="section">
+                <a *ngSwitchDefault routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a *ngSwitchCase="'admin'" [routerLinkActiveOptions]="{ exact: true }" routerLink="/admin" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a *ngSwitchCase="'admin'" routerLink="/admin/listaEncuestas" routerLinkActive="active current" class="nav-item nav-link" i18n>Ver Encuestas</a>
+                <a *ngSwitchCase="'admin'" routerLink="/admin/crearEncuestas" routerLinkActive="active current" class="nav-item nav-link" i18n>Crear Encuestas</a>
+                <a *ngSwitchCase="'admin'" routerLink="/admin/estadisticas" routerLinkActive="active current" class="nav-item nav-link" i18n>Estadisticas</a>
+                <a *ngSwitchCase="'usuario'" [routerLinkActiveOptions]="{ exact: true }" routerLink="/usuario" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a *ngSwitchCase="'usuario'" routerLink="/usuario/listaEncuestas" routerLinkActive="active current" class="nav-item nav-link" i18n>Encuestas</a>
+                <a *ngSwitchCase="'usuario'" routerLink="/usuario/estadisticas" routerLinkActive="active current" class="nav-item nav-link" i18n>Estadisticas</a>
+            </div>
+            <div class="navbar-nav ml-auto" [ngSwitch]="section">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Español
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#" >English</a>
+                    </div>
+                </div>
+                <a *ngSwitchDefault routerLink="/login" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Iniciar sesión</a>
+                <a *ngSwitchCase="'admin'" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Cerrar Sesión</a>
+                <a *ngSwitchCase="'usuario'" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Cerrar Sesión</a>
+            </div>
+        </div>
+    </div>
+</nav>
