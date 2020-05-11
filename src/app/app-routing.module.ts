@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { PoliciesComponent } from './policies/policies.component';
+import { HomeComponent } from './modules/shared/home/home.component';
+import { AboutComponent } from './modules/shared/about/about.component';
+import { PoliciesComponent } from './modules/shared/policies/policies.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 
