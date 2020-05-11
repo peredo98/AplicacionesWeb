@@ -15,7 +15,7 @@
             </div>
         </div>
         <hr>
-        <app-fechas-admin></app-fechas-admin>
+        <app-fechas-admin [survey]="survey"></app-fechas-admin>
         <hr>
         <div *ngFor="let question of survey.questions">
             <app-graficas-admin [question]="question"></app-graficas-admin>

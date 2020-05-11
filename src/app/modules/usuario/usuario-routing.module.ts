@@ -17,9 +17,9 @@ const routes: Routes = [
 { path: 'policies', component: PoliciesComponent, data: {section : 'usuario', animation:'isPolicies'}},
 { path: 'signup', component: SignupComponent, data:{animation: 'isSignup'}},
 { path: 'login', component: LoginComponent, data:{animation: 'isLogin'}},
-{ path: 'estadisticas', component: EstadisticasUsuarioComponent, data:{animation: 'isEstadisticas'}},
+{ path: 'estadisticas/:id', component: EstadisticasUsuarioComponent, data:{animation: 'isEstadisticas'}},
 { path: 'listaEncuestas', component: ListaEncuestasUsuarioComponent, data:{animation: 'isListaEncuentas'}},
-{ path: 'contestarEncuesta', component: ContestarEncuestaComponent, data:{animation: 'isContestarEncuestas'}}];
+{ path: 'contestarEncuesta/:id', component: ContestarEncuestaComponent, data:{animation: 'isContestarEncuestas'}}];
 
 
 @NgModule({

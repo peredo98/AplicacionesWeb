@@ -6,15 +6,18 @@
                 Contestar Encuesta
             </h2>
         </div>
+        <div class = 'title_container py-3'>
+            <h2> 
+                {{survey.title}}
+            </h2>
+        </div>
         <div class = 'form_container'>
             <form class = "form_login col-lg-4 col-md-5 col-sm-6 col-10">
                 <div class = "pregunta">
-                    <app-contestar-pregunta></app-contestar-pregunta>
-                    <hr>
-                    <app-contestar-pregunta></app-contestar-pregunta>
-                    <hr>
-                    <app-contestar-pregunta></app-contestar-pregunta> 
-                    <hr>    
+                    <div *ngFor="let question of survey.questions">
+                        <app-contestar-pregunta [question]="question"></app-contestar-pregunta>
+                        <hr>
+                    </div>
                 </div>
                 <a routerLink="/usuario/listaEncuestas" routerLinkActive="active" >
                     <button class="btn btn-secondary mt-3" type="submit">Cancelar</button>

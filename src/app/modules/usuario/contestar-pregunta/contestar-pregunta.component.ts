@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Question } from 'src/app/models/question.model';
 
 @Component({
   selector: 'app-contestar-pregunta',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contestar-pregunta.component.scss']
 })
 export class ContestarPreguntaComponent implements OnInit {
-
+  @Input()
+  question: Question;
+  
   constructor() { }
 
   ngOnInit(): void {

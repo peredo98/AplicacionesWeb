@@ -1,17 +1,13 @@
 <div class="form-row">
     <div class="col-lg-12 text-center">
-        <p class = "preguntaUsuario">Pregunta</p>
+        <p class = "preguntaUsuario">{{question.title}}</p>
     </div>
 </div>
 <div class="form-row pt-2">
     <div class="col-lg-12 mb-2">
-        <input type="radio" id="opcion1" name="pregunta" value="opcion1">
-        <label class = "pl-2" for="opcion1">Opción 1</label><br>
-        <input type="radio" id="opcion2" name="gpregunta" value="opcion2">
-        <label class = "pl-2" for="opcion2">Opción 2</label><br>
-        <input type="radio" id="opcion3" name="pregunta" value="opcion3">
-        <label class = "pl-2" for="opcion3">Opción 3</label><br>
-        <input type="radio" id="opcion4" name="pregunta" value="opcion4">
-        <label class = "pl-2" for="opcion4">Opción 4</label>
+        <div *ngFor="let option of question.options">
+            <input type="radio" id="opcion-{{option.id}}" name="{{question.title}}" value="opcion-{{option.id}}">
+            <label class = "pl-2" for="opcion-{{option.id}}">{{option.title}}</label><br>
+        </div>
     </div>
 </div>

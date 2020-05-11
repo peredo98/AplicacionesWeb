@@ -14,6 +14,13 @@ export class GraficasAdminComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  ngAfterViewInit(): void{
+    this.drawChart();
+  }
+
+  drawChart(){
     var optionTitles = [];
     var optionVotes = [];
     this.question.options.forEach(function (option) {
@@ -21,7 +28,7 @@ export class GraficasAdminComponent implements OnInit {
       optionVotes.push(option.votes);
     });
 
-    var ctx = document.getElementById("myChart");
+    var ctx = document.getElementById("question-" + this.question.id);
     var myChart = new Chart(ctx, {
       type: 'bar',
       data: {
@@ -58,7 +65,5 @@ export class GraficasAdminComponent implements OnInit {
         }
       }
     });
-
   }
-
 }

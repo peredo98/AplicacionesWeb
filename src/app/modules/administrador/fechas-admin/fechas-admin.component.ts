@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Survey } from 'src/app/models/survey.model';
 
 @Component({
   selector: 'app-fechas-admin',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fechas-admin.component.scss']
 })
 export class FechasAdminComponent implements OnInit {
+  @Input()
+  survey: Survey;
 
   constructor() { }
 
