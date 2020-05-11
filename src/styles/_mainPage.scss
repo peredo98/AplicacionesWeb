@@ -1,0 +1,30 @@
+.content_main {
+    @include flexCenter(row);
+}
+
+.left-section, .right-section {
+    @include flexAlignCenter(column);
+    width: 50%;
+}
+
+.main_info {
+    @include info(80%, 18px, 700);
+}
+
+.form_container {
+    width: 100%;
+    @include flexCenter(row);
+    
+    .form_main_login {
+        @include form_style(30px);
+        .submission_main {
+            @include flexAlignCenter(column);
+        }
+        .change_signup_main {
+            padding-top: 1%;
+            a {
+                font-weight: 700;
+            }
+        }
+    }
+}

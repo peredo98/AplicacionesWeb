@@ -1,0 +1,4 @@
+$votarImgRezise:130px;
+.img-partido-lg {
+    @include resizeImage($votarImgRezise);
+}
