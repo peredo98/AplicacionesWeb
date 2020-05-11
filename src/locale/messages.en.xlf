@@ -94,6 +94,26 @@
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6b427b79df720b2c34137e57694017a6e65630f4" datatype="html">
+        <source>Contestar</source>
+        <target>Answer survey</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="12169eafee3c399e538f903f10476fbba5ac3072" datatype="html">
         <target>We give transparent results on the surveys of our citizens.</target>
         <source>Damos resultados transparentes sobre las encuestas de nuestros ciudadanos.</source>
@@ -215,7 +235,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="45a4b797ab6931fb10ed4ad33c49a77582db3db8" datatype="html">
-        <target>Start</target>
+        <target>Home</target>
         <source>Inicio</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
@@ -275,7 +295,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="93491dbc422da2754ba6937a4e757196996fa4c6" datatype="html">
-        <target>Sign off</target>
+        <target>Sign out</target>
         <source>Cerrar Sesión</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/header-navbar/header-navbar.component.html</context>
@@ -443,8 +463,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="46bb05e815178e8a9198732af5a0c77c9da9348c" datatype="html">
-        <target>[object Object]</target>
-        <source>[object Object]</source>
+        <target>Accept <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>terms and conditions<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <source>Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">18</context>
@@ -503,8 +523,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="7cc938312b410abff161a22fa9fd9331c4c56a91" datatype="html">
-        <target>[object Object]</target>
-        <source>[object Object]</source>
+        <target>Do you need to register? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Register<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <source>¿Aún no tienes cuenta? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Regístrate<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login-form/login-form.component.html</context>
           <context context-type="linenumber">70</context>
@@ -631,8 +651,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="4a888a8adeca2bb7c845cd694748185f4d5d216d" datatype="html">
-        <target>[object Object]</target>
-        <source>[object Object]</source>
+        <target>Accept <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> terms and conditions<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <source>Aceptar <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/> términos y condiciones<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">54</context>
@@ -655,8 +675,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="db70d97999b4a855dd7663f3b7f2e6d7136a2896" datatype="html">
-        <target>[object Object]</target>
-        <source>[object Object]</source>
+        <target>Do you have an account already? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Sign in<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <source>¿Ya estás registrado? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Inicia sesión<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register-form/register-form.component.html</context>
           <context context-type="linenumber">106</context>
@@ -759,7 +779,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="1c20fa2cc4e0872f2fd9d2132cd34c09783a3f8a" datatype="html">
-        <target>To return</target>
+        <target>Return</target>
         <source>Regresar</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
@@ -767,24 +787,64 @@
         </context-group>
       </trans-unit>
       <trans-unit id="01466f0cafc292b2cc004de93f85e81b3da7fb4b" datatype="html">
-        <target>To post</target>
         <source>Publicar</source>
+        <target>Publish</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
           <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4c0cfd3e88d5d6af1d5f23914fb74cb353a83811" datatype="html">
+        <source>Eliminar</source>
+        <target>Delete</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0e61a7ee5ed83eb7b8d79eb9af7bd98fb3ef4c6" datatype="html">
+        <source>Ocultar</source>
+        <target>Hide</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="06c00e1a3aa89d98cb17a9d25472650637f048c9" datatype="html">
-        <target>[object Object]</target>
-        <source>[object Object]</source>
+        <target>Date of creation: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>01/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+        <source>Fecha de creación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>01/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="41a3378fae1cfd0afeb1dd6181b336f094a6ddde" datatype="html">
-        <target>[object Object]</target>
-        <source>[object Object]</source>
+        <target>Publication date: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+        <source>Fecha de publicación: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/02/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
           <context context-type="linenumber">7</context>
@@ -795,8 +855,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="29a0b76ccd0b2fcaa4f812e999ee87bd0f0a718a" datatype="html">
-        <target>[object Object]</target>
-        <source>[object Object]</source>
+        <target>Deadline: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/03/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></target>
+        <source>Fecha de cierre: <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>02/03/2020<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/fechas-admin/fechas-admin.component.html</context>
           <context context-type="linenumber">10</context>

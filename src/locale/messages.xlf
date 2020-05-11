@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="es" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="fe78f8aad91641dc55b11e5d345fce5ec5fb42cb" datatype="html">
         <source> ¿Quienes somos? </source>
@@ -96,6 +96,38 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/shared/home-carousel/home-carousel.component.html</context>
           <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="12169eafee3c399e538f903f10476fbba5ac3072" datatype="html">
@@ -723,6 +755,51 @@
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="01466f0cafc292b2cc004de93f85e81b3da7fb4b" datatype="html">
+        <source>Publicar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c0cfd3e88d5d6af1d5f23914fb74cb353a83811" datatype="html">
+        <source>Eliminar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c0e61a7ee5ed83eb7b8d79eb9af7bd98fb3ef4c6" datatype="html">
+        <source>Ocultar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/administrador/encuestas-admin/encuestas-admin.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="b14f13bc957c5259b650fdc0f0602ca2ef1f3628" datatype="html">
         <source> 
                         Estadísticas de Encuesta
@@ -737,13 +814,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
           <context context-type="linenumber">70</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="01466f0cafc292b2cc004de93f85e81b3da7fb4b" datatype="html">
-        <source>Publicar</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/administrador/estadisticas-admin/estadisticas-admin.component.html</context>
-          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06c00e1a3aa89d98cb17a9d25472650637f048c9" datatype="html">
@@ -814,6 +884,25 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
           <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b427b79df720b2c34137e57694017a6e65630f4" datatype="html">
+        <source>Contestar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/usuario/encuestas-usuario/encuestas-usuario.component.html</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b1a3585c9fe1aaa11da4b6e8fc42d99f84a4434c" datatype="html">
