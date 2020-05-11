@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent, data: {section : 'admin', animation: 'isAbout'}},
   { path: 'policies', component: PoliciesComponent, data: {section : 'admin', animation: 'isPolicies'}},
   { path: 'crearEncuestas', component: CrearEncuestasComponent, data:{ animation: 'isCrearEncuestas'}},
-  { path: 'estadisticas', component: EstadisticasAdminComponent, data:{ animation: 'isEstadisticas'}},
+  { path: 'estadisticas/:id', component: EstadisticasAdminComponent, data:{ animation: 'isEstadisticas'}},
   { path: 'listaEncuestas', component: ListaEncuestasAdminComponent, data:{ animation: 'isListaEncuestas'}},
   { path: '**', component: PageNotFoundComponent}];
 

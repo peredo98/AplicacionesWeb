@@ -9,7 +9,7 @@
                         Estadísticas de Encuesta
                     </h4>
                     <h4> 
-                        Sobre satisfacción ciudadana
+                        {{survey.title}}
                     </h4>
                 </div>
             </div>
@@ -17,55 +17,11 @@
         <hr>
         <app-fechas-admin></app-fechas-admin>
         <hr>
-        <app-graficas-admin></app-graficas-admin>
-        <app-graficas-admin2></app-graficas-admin2>
-        <app-graficas-admin3></app-graficas-admin3>
-        
-        <!-- <div class = "row infoEstadísticas">
-            <div class = "whitePurpleContainer col-md-12 col-12 p-3 rounded-sm d-flex justify-content-center">
-                <div class = "col-lg-4 col-md-8 infoEstadisticaContainer">
-                    <div class = "row">
-                        <h5 class="card-title text-center col-lg-12">Pregunta 2</h5>
-                    </div>
-                    <hr>
-                    <div class = "row d-flex justify-content-center">
-                        <div class = "col-lg-12"> 
-                        <canvas id="myChart2"></canvas>
-                        </div>
-                    </div>
-                </div>
-                </div>
+        <div *ngFor="let question of survey.questions">
+            <app-graficas-admin [question]="question"></app-graficas-admin>
         </div>
-        <div class = "row infoEstadísticas">
-            <div class = "whitePurpleContainer col-md-12 col-12 p-3 rounded-sm d-flex justify-content-center">
-                <div class = "col-lg-4 col-md-8 infoEstadisticaContainer">
-                <div class = "row">
-                    <h5 class="card-title text-center col-lg-12">Pregunta 3</h5>
-                </div>
-                <hr>
-                <div class = "row d-flex justify-content-end">
-                    <div class = "col-lg-12"> 
-                    <canvas id="myChart3"></canvas>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class = "row infoEstadísticas">
-            <div class = "whitePurpleContainer col-md-12 col-12 p-3 rounded-sm d-flex justify-content-center">
-                <div class = "col-lg-4 col-md-8 infoEstadisticaContainer">
-                    <div class = "row">
-                    <h5 class="card-title text-center col-lg-12">Pregunta 4</h5>
-                    </div>
-                    <hr>
-                    <div class = "row d-flex justify-content-center">
-                    <div class = "col-lg-12"> 
-                        <canvas id="myChart4"></canvas>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+       
+
         <div class = "row pt-3 pb-3 whitePurpleContainer justify-content-center">
             <button type="button" class="btn btn-secondary mr-2 align-self-center" i18n>Regresar</button>
             <button type="button" class="btn btn-info ml-2" i18n>Publicar</button>

@@ -1,13 +1,16 @@
 export class User{
-    id: number;
-    user: string;
-    email: string;
-    name: string;
-    firstLastName: string;
-    secondLastName: string;
-    gender: string;
-    birthdate: string;
-    password: string;
-    city: string;
-    state: string;
+    constructor(public id?: number, 
+        public user?: string, 
+        public email?: string, 
+        public name?: string, 
+        public firstLastName?: string, 
+        public secondLastName?: string, 
+        public gender?: string, 
+        public birthdate?: string, 
+        public password?: string, 
+        public city?: string, 
+        public state?: string, 
+        public isAdmin?: boolean){
+
+    }
 }

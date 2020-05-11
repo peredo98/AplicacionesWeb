@@ -1,5 +1,7 @@
 export class Option{
-    id: number;
-    title: string;
-    votes: number;
+    constructor( public id?: number,
+        public title?: string,
+        public votes?: number){
+    }
+   
 }

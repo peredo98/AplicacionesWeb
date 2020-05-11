@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Chart } from 'node_modules/chart.js';
-
+import { Question } from 'src/app/models/question.model';
 @Component({
   selector: 'app-graficas-admin',
   templateUrl: './graficas-admin.component.html',
@@ -8,18 +8,27 @@ import { Chart } from 'node_modules/chart.js';
 })
 export class GraficasAdminComponent implements OnInit {
 
+  @Input()
+  question: Question;
+
   constructor() { }
 
   ngOnInit(): void {
+    var optionTitles = [];
+    var optionVotes = [];
+    this.question.options.forEach(function (option) {
+      optionTitles.push(option.title);
+      optionVotes.push(option.votes);
+    });
 
-    var ctx = document.getElementById('myChart');
+    var ctx = document.getElementById("myChart");
     var myChart = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: optionTitles,
         datasets: [{
           label: '# of Votes',
-          data: [12, 19, 3, 5, 2, 3],
+          data: optionVotes,
           backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
             'rgba(54, 162, 235, 0.2)',
