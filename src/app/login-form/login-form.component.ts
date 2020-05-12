@@ -27,16 +27,20 @@ export class LoginFormComponent implements OnInit {
   }
 
   onSubmit(userData) {
+    console.warn('User: ', userData);
     // Process checkout data here
     var user = this.userService.validateUser(userData);
     this.validateUserForm.reset();
-    if(user.isAdmin){
-      this.router.navigate(['/admin']);
-    }else if(!user.isAdmin){
-      this.router.navigate(['/usuario']);
+    if(user == null){
+      console.warn('invalid user or password');
+    }else{
+      if(user.isAdmin){
+        this.router.navigate(['/admin']);
+      }else if(!user.isAdmin){
+        this.router.navigate(['/usuario']);
+      }
     }
-
-    console.warn('User: ', userData);
+    
     
   }
 

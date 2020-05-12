@@ -1,19 +1,19 @@
-<div class = 'form_container'>
-    <form class = 'form_signup col-lg-8 col-sm-8 col-10'>
+<div  class = 'form_container'>
+    <form [formGroup]="createUserForm" (ngSubmit)="onSubmit(createUserForm.value)" class = 'form_signup col-lg-8 col-sm-8 col-10'>
         <div class="form-row">
         <div class="col-lg-6 col-12 mb-3">
             <label for="inputUsuario" i18n>Nombre/s:</label>
-            <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario o correo electrónico" required i18n-placeholder>
+            <input formControlName="user" type="text" class="form-control" id="inputUsuario" placeholder="Usuario o correo electrónico" required i18n-placeholder>
         </div>
         <div class="col-lg-6 col-12 mb-3">
             <label for="inputAMaterno" i18n>Apellido materno:</label>
-            <input type="text" class="form-control" id="inputAMaterno" placeholder="Apellido materno" required i18n-placeholder>
+            <input formControlName="secondLastName" type="text" class="form-control" id="inputAMaterno" placeholder="Apellido materno" required i18n-placeholder>
         </div>
         </div>
         <div class="form-row">
         <div class="col-lg-6 col-12 mb-3">
             <label for="inputAPaterno" i18n>Apellido paterno:</label>
-            <input type="text" class="form-control" id="inputAPaterno" placeholder="Apellido paterno" required i18n-placeholder>
+            <input formControlName="firstLastName" type="text" class="form-control" id="inputAPaterno" placeholder="Apellido paterno" required i18n-placeholder>
         </div>
         <div class="col-lg-2 col-12 mb-3">
             <label for="sexo" i18n>Sexo:</label>
@@ -25,24 +25,24 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-3">
             <label for="birthday" i18n>Fecha de nacimiento:</label>
-            <input type="date" class="form-control" id="birthday" name="birthday">
+            <input formControlName="birthdate" type="date" class="form-control" id="birthday" name="birthday">
         </div>
         </div>
         <div class="form-row">
         <div class="col-lg-4 col-md-6 col-12 mb-3">
             <label for="inputContraseña" i18n>Contraseña:</label>
-            <input type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" required i18n-placeholder>
+            <input formControlName="password" type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" required i18n-placeholder>
         </div>
         <div class="form-group col-lg-4 col-md-6 col-12">
             <label for="inputCiudad" i18n>Ciudad:</label>
-            <select id="inputCiudad" class="form-control">
+            <select formControlName="city" id="inputCiudad" class="form-control">
             <option selected i18n>Eligir...</option>
             <option>...</option>
             </select>
         </div>
         <div class="form-group col-lg-4 col-md-6 col-12">
         <label for="inputEstado" i18n>Estado:</label>
-        <select id="inputEstado" class="form-control">
+        <select formControlName="state" id="inputEstado" class="form-control">
             <option selected i18n>Elegir...</option>
             <option>...</option>
         </select>

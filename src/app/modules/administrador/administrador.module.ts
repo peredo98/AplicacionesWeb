@@ -12,6 +12,7 @@ import { ListaEncuestasAdminComponent } from './lista-encuestas-admin/lista-encu
 import { GraficasAdmin2Component } from './graficas-admin2/graficas-admin2.component';
 import { GraficasAdmin3Component } from './graficas-admin3/graficas-admin3.component';
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [CrearEncuestasComponent, 
@@ -27,6 +28,8 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     SharedModule,
     AdministradorRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class AdministradorModule { }
