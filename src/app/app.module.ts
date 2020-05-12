@@ -11,7 +11,7 @@ import { AppRoutingModule} from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { UsuarioModule } from './modules/usuario/usuario.module';
 import { AdministradorModule } from './modules/administrador/administrador.module';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {registerLocaleData} from '@angular/common'; 
 import localeMX from '@angular/common/locales/es-MX'; 
 import localeUS from '@angular/common/locales/en'; 
@@ -33,6 +33,8 @@ registerLocaleData(localeUS, 'en');
   imports: [
     SharedModule,
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     AdministradorModule,

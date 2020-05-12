@@ -1,5 +1,5 @@
 <div class = 'form_container'>
-<form class = "form_login col-lg-4 col-md-5 col-sm-6 col-10">
+<form [formGroup]="validateUserForm" (ngSubmit)="onSubmit(validateUserForm.value)" class = "form_login col-lg-4 col-md-5 col-sm-6 col-10">
     <div class="form-row">
       <div class="col-lg-12 mb-3">
         <label for="inputUsuario" i18n>Usuario o correo electrónico</label>
@@ -9,12 +9,12 @@
     <div class="form-row">
       <div class="col-lg-12 mb-3">
         <label for="inputContraseña" i18n>Contraseña</label>
-        <input type="password" class="form-control" id="inputContraseña" placeholder="Contraseña" required i18n-placeholder>
+        <input type="password" formControlName="user" class="form-control" id="inputContraseña" placeholder="Contraseña" required i18n-placeholder>
       </div>
     </div>
     <div class="form-group">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="inputTerminos" required>
+        <input formControlName = "password" class="form-check-input" type="checkbox" value="" id="inputTerminos" required>
         <label class="form-check-label" for="inputTerminos" i18n>
           Aceptar <a href ="#policiesModal" data-toggle="modal" data-target="#policiesModal" >términos y condiciones</a>
         </label>

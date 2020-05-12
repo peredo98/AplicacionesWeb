@@ -23,5 +23,15 @@ export class UserService {
    this.users.push(user)
  }
 
+ validateUser(userData): User{
+    this.getUsers();
+    this.users.forEach(function (user) {
+      if((user.user === userData.user || user.email === userData.user) && (user.password === userData.password)){
+        return user;
+      }
+    }); 
+    return null;
+ }
+
   constructor() { }
 }
