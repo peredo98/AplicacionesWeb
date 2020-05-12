@@ -1,0 +1,75 @@
+@import "styles";
+.table {
+    display: table;
+    padding: 20px;
+    border-collapse: collapse;
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+.headerTable , .rowTable {
+    display: flex;
+    text-align: center;
+}
+
+.headerTable {
+    display: table-row;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rowTable {
+    display: table-row;
+    font-size: 18px;
+}
+
+.columnTable {
+    display: table-cell;
+    border-top: 1.5px solid #D6D6D6;
+    border-bottom: 1.5px solid #D6D6D6;
+    vertical-align: middle;
+    padding: 18px;
+}
+
+.dates {
+    font-weight: 600;
+    color: #757575;
+}
+
+.columnTable>a {
+    padding: 0;
+}
+
+@media(max-width: 520px){
+	.headerTable {
+        font-size: 14px;
+    }
+    
+    .rowTable {
+        font-size: 14px;
+    }
+
+    .listbtn {
+        font-size: 10px;
+    }
+    .columnTable {
+        padding: 2px;
+    }
+}
+
+@media(min-width: 521px) and (max-width: 900px){
+	.headerTable {
+        font-size: 18px;
+    }
+    
+    .rowTable {
+        font-size: 16px;
+    }
+
+    .listbtn {
+        font-size: 16px;
+    }
+    .columnTable {
+        padding: 6px;
+    }
+}

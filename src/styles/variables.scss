@@ -1,0 +1,125 @@
+
+//about
+$contentFlexCenter: column;
+//candidatos
+$candidatesDisplay: flex;
+$candidatesFlexDirection: column;
+$candidatesFlex: 1;
+$candidatesBorder: 1px;
+$candidatesMaxWidth: 100%;
+$candidatesContainerMargin: 0;
+$candidatesContainerBorder: 2px solid  #C1C1C1;
+$candidatesContainerAlignment: center;
+$filterCandidatesBorderRadius :15px 15px 0px 0px;
+$filterCandidatesFlexAlignCenter: row;
+$imgCandidate: 200px;
+$imgParty: 30px;
+//config
+$dark-purple: #7852A4;
+$soft-purple: #EADDFA;
+$softest-purple:  #F2EBFA;
+$gray-purple: #ECE7F1;
+$gray-text: #6f777b;
+$gray-background: #D1D1D1;
+$gray-text: #414046;
+$white: #FFF;
+$white-purple: #F4F0FA;
+$labelFontText: 700;
+$whiteMoreWhite: #f0f0f0;
+$red: #ff0000;
+$green:#00ff00;
+$blue: #0000ff;
+
+$flexCenterDispay: flex;
+$flexCenterJustify: center;
+$flexAlignCenterAlignItems: center;
+$form_styleBorder: 1px solid #E1E1E1;
+$form_styleBorderRadius: 10px;
+$infoTextAlign: center;
+$activeFontWeight: 600;
+$resizeImageWidth: auto;
+$polaroidImageBorder: 1px solid #ddd;
+$polaroidImageBorderRadius: 4px;
+$polaroidImagePadding: 5px;
+//estadisticas
+$imgCandidate: 120px;
+//footer
+$footerContainerMarginTop: auto;
+$footerContainerDispay: flex;
+$footerContainerJustify: space-between;
+$footerContainerPaddingTop: 1%;
+$footerContainerWidth: 50%;
+$footerContainerFlexAlignCenter: column;
+$footerContainerFontSize: 14px;
+$footerContainerColor: inherit;
+//header
+$headerHeight : 62px;
+$ribbonWidth : 80px;
+$ribbonBackground: $red;
+$ribbonPosition: absolute;
+$ribbonTop: 5px;
+$ribbonSide: -20px;
+$ribbonTextAlign: center;
+$ribbonLineHeight: 25px;
+$ribbonLetterSpacing: 1px;
+$ribbonColor: $whiteMoreWhite;
+$ribbonLeftTransform: rotate(-45deg);
+$ribbonLeftWebKitTransform: rotate(-45deg);
+$ribbonRightTransform: rotate(45deg);
+$ribbonRightWebKitTransform: rotate(45deg);
+$ribbonRightLeft: auto;
+//home
+$homeVerticalPadding: 100px;
+//login
+$loginContent: column;
+$loginContainer: row;
+$loginPadding : 2%;
+$signupFont : 700;
+$loginForm: 30px;
+$loginSubmission: column;
+//propuestas
+$propuestasContentDisplay:flex;
+$propuestasContentFlexDirection:column;
+$propuestasContentFlex:1;
+$propuestasContentBorder:1px;
+$propuestasContentWidth: 100%;
+$propuestasImgResize:200px;
+$propuestasFiltroRadius: 15px 15px 0px 0px;
+$propuestasCandidatoFlex: column;
+$propuestasCandidatoRadius: 20px;
+//sidebar
+$sideBarBackgroundColor:#AEA4CC;
+$sideBarPadding:20px;
+$sideBarBottom: 2px solid rgba(0,0,0,.05);
+$sideBarColor: #e9e7ee;
+$sideBarHoverColor:#737278;
+$sideBarHoverBackgroundColor:rgb(160, 150, 189);
+$sideBarActiveFontSize: 18px;
+//signup
+$signUpContentFlex:column;
+$signUpContainerFlex:row;
+$signUpContainerMargin:5%;
+$signUpFormStyle:20px;
+$signUpFormSubmissionFlex: column;
+$signUpLoginFontWeight: 700;
+//votar
+$votarImgRezise:130px;
+//styles
+$styleBoxSize: border-box;
+$styleBoxMargin: 0;
+$styleBoxPadding: 0;
+$styleHtmlHeight: 100%;
+$styleBodyHeight: 100%;
+$styleBodyDisplay: flex;
+$styleBodyDirection: column;
+$styleTitleContainerFlex: row;
+$styleTitleContainerPadding: 40px;
+$styleMainContainerFlexCenter: column;
+$styleMainContainerPadding: 0;
+$styleMainContainerMargin:0;
+$styleMainContainerHeight:100vh;;
+$styleMainContainerFlex:1;
+$styleWrapperDisplay:flex;
+$styleWrapperFlex:1;
+
+
