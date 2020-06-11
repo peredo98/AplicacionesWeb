@@ -1,4 +1,3 @@
-
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
@@ -8,7 +7,8 @@ import { AboutComponent } from './modules/shared/about/about.component';
 import { PoliciesComponent } from './modules/shared/policies/policies.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
-
+import { AuthGuard } from './guards/auth.guard';
+import { from } from 'rxjs';
 const routes: Routes = [
   { path: '', component: HomeComponent, data:{animation:'isHome'}},
   { path: 'about', component: AboutComponent, data:{ animation: 'isAbout'} },
@@ -29,3 +29,8 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
                              
+/*
+ path: 'perfil',
+    component: PerfilComponent,
+    canActivate: [AuthGuard],
+    */

@@ -11,11 +11,23 @@
                 <div class = "pregunta">
                     <div class="form-row">
                         <div class="col-lg-12 mb-3">
-                            <label for="inputPregunta" i18n>Pregunta</label>
-                            <input formControlName="question" type="text" class="form-control" id="inputPregunta" placeholder="Pregunta" required>
+                            <label for="inputPregunta" i18n>Título</label>
+                            <input formControlName="question" type="text" class="form-control" id="inputPregunta" placeholder="Título" required>
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <label for="inputPregunta" i18n>Fecha de inicio</label>
+                            <input formControlName="question" type="text" class="form-control" id="inputPregunta" placeholder="Inicio" required>
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <label for="inputPregunta" i18n>Fecha de cierre</label>
+                            <input formControlName="question" type="text" class="form-control" id="inputPregunta" placeholder="Cierre" required>
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <label for="inputPregunta" i18n>Fecha de creacion</label>
+                            <input formControlName="question" type="text" class="form-control" id="inputPregunta" placeholder="Obtener la fecha de creación" required>
                         </div>
                     </div>
-                    <div class="form-row d-flex justify-content-center">
+                    <!--<div class="form-row d-flex justify-content-center">
                         <div class="dropdown">
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" i18n>
                                 Número de opciones
@@ -31,21 +43,21 @@
                                 <a class="dropdown-item">9</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-row pt-2">
+                    </div>-->
+                    <div class="form-row pt-2" id="preguntaTemplate">
+                        <div class="col-lg-12 mb-3">
+                            <label for="inputPregunta" i18n>Pregunta</label>
+                            <input formControlName="question" type="text" class="form-control" id="inputPregunta" placeholder="Pregunta" required>
+                        </div>
                         <div class="col-lg-12 mb-3">
                             <label for="inputOpcion1" i18n>Opciones</label>
                             <input formControlName="option1" type="text" class="form-control" id="inputOpcion1" placeholder="Opción 1" required>
                             <br/>
-                            <input formControlName="option2" type="text" class="form-control" id="inputOpcion2" placeholder="Opción 2" required>
-                            <br/>
-                            <input formControlName="option3" type="text" class="form-control" id="inputOpcion3" placeholder="Opción 3" required>
-                            <br/>
-                            <input formControlName="option4" type="text" class="form-control" id="inputOpcion4" placeholder="Opción 4" required>
+                            <input formControlName="option2" type="text" class="form-control" id="inputOpcion2" placeholder="Opción 2" required> 
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-primary mt-3" type="submit" i18n>Agregar Pregunta</button>
+                <button class="btn btn-primary mt-3" type="submit" i18n id="agregarPregunta" onclick="AddQuestions()">Agregar Pregunta</button>
                 <button class="btn btn-primary mt-3" type="submit" i18n>Crear encuesta</button>
             </form>
         </div>
