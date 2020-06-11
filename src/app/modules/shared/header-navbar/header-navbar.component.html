@@ -25,6 +25,7 @@
                         <a class="dropdown-item" href="#" >English</a>
                     </div>
                 </div>
+                <a routerLinkActive="active current" class="nav-item nav-link" i18n routerLink="perfil" *ngIf="auth.loggedIn">Profile</a>
                 <button (click)="auth.login()" *ngIf="!auth.loggedIn" class="nav-item nav-link" i18n>Log In</button>
                 <button (click)="auth.logout()" *ngIf="auth.loggedIn" class="nav-item nav-link" i18n>Log Out</button>
                 <!--<a *ngSwitchDefault routerLink="/login" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Iniciar sesión</a>
