@@ -87,6 +87,7 @@ router.route('/surveys').post(function(req, res){
     survey.city = req.body.city;
     survey.state = req.body.state;
     survey.isPublish = false;
+    survey.resultsPublish = false;
     survey.questions = [];
     
     // console.log(inputQuestions);
@@ -209,6 +210,29 @@ router.route("/surveys/:id_survey/turn")
     });
   });
 
+//Toggle results to be Hidden or Published
+router.route("/surveys/:id_survey/results")
+.put(function (req, res) {
+  Survey.findById(req.params.id_survey, async function (err, survey) {
+    if (err) {
+      res.status(404).send(err);
+      return;
+    }
+    if(survey.resultsPublish == false){
+      survey.resultsPublish = true;
+    }else{
+      survey.resultsPublish = false;
+    }
+    await survey.save(function (err) {
+      if (err) {
+        res.status(500).send({message: "Hubo un error al hacer la operación."});
+        return;
+      }
+      res.status(200).send({ message: "Estatus de la encuesta cambió con éxito." });
+    });
+  });
+});
+
 
 //Add votes to a specific survey
 router.route("/surveys/:id_survey/addVotes")
@@ -223,7 +247,7 @@ router.route("/surveys/:id_survey/addVotes")
         res.status(400).send({error: "Tiene que haber opciones seleccionadas"});
         return;
     }
-    var selectedOptions = JSON.parse(req.body.selectedOptions);
+    var selectedOptions = req.body.selectedOptions;
 
     if(selectedOptions.length == 0){
         res.status(400).send({error: "Tiene que haber opciones seleccionadas"});

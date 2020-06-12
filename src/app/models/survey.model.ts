@@ -10,7 +10,9 @@ export class Survey {
         public questions?: Question[],
         public city?: string,
         public state?: string,
-        public isPublish?: boolean){
+        public isPublish?: boolean,
+        public resultsPublish?: boolean,
+        ){
 
     }
     

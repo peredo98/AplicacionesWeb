@@ -13,6 +13,7 @@ import { HttpClient } from '@angular/common/http';
 export class ContestarEncuestaComponent implements OnInit {
   survey: Survey;
   sub;
+  selectedOptions: [];
 
   constructor(private _Activatedroute:ActivatedRoute,
     private _router:Router, private surveyService: SurveyService){
@@ -20,20 +21,25 @@ export class ContestarEncuestaComponent implements OnInit {
 
   ngOnInit(): void {
     this.sub = this._Activatedroute.paramMap.subscribe(params => { 
-        var id = +params.get('id'); 
-        this.survey = this.getSurveyById(id);
+        var id = params.get('id'); 
+        this.getSurveyById(id);
     });
   }
 
-  getSurveyById(id: number): Survey {
-    var retSurvey = new Survey();
-    this.surveyService.getSurveys().subscribe(surveys =>{
-      surveys.forEach(function (survey) {
-        if(id == survey.id){
-          retSurvey = survey;
-        }
-      }); 
+  getSurveyById(id: String) {
+  
+    this.surveyService.getSurveyByID(id).subscribe(survey => {
+      this.survey = survey;
+      console.log(this.survey);
     });
-    return retSurvey;
+  }
+
+  AnswerSurvey(id: String) {
+    /*
+    this.surveyService.addVotes(id).subscribe(survey => {
+      this.survey = survey;
+      console.log(this.survey);
+    });
+    */
   }
 }

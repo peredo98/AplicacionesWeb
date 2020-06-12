@@ -77,6 +77,13 @@ import {map, catchError, tap} from 'rxjs/operators'
         })
       }
 
+      toggleResults(survey: Survey){
+
+        this.http.put(this.endpoint + '/' + survey._id + '/results', this.requestOptions).subscribe(_ => {
+          survey.resultsPublish = !survey.resultsPublish
+        })
+      }
+
       // private extractData(res: Response){
       //   console.log
       //   let body = res;

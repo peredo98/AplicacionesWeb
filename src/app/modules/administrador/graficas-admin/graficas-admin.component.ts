@@ -14,9 +14,11 @@ export class GraficasAdminComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
   ngAfterViewInit(): void{
+    console.log(this.question)
     this.drawChart();
   }
 
@@ -28,7 +30,7 @@ export class GraficasAdminComponent implements OnInit {
       optionVotes.push(option.votes);
     });
 
-    var ctx = document.getElementById("question-" + this.question.id);
+    var ctx = document.getElementById("question-" + this.question._id);
     var myChart = new Chart(ctx, {
       type: 'bar',
       data: {

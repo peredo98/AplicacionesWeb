@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { AuthService } from '../../../services/auth.service';
 @Component({
   selector: 'app-header-navbar',
   templateUrl: './header-navbar.component.html',

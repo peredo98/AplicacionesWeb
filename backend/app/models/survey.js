@@ -65,6 +65,10 @@ var SurveySchema = new Schema({
     isPublish: {
         type: Boolean,
         default: false
+    },
+    resultsPublish: {
+        type: Boolean,
+        default: false
     }  
 });
 

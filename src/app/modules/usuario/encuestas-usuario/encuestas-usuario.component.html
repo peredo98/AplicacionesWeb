@@ -19,9 +19,16 @@
                     </a>
                 </div>
                 <div class = "columnTable">
-                    <a [routerLink]="[ '/usuario/estadisticas',survey._id]" routerLinkActive="active current"class="nav-item nav-link">
-                        <button type="button" class="btn btn-info listbtn" i18n>Ver resultados</button>
-                    </a>
+                    <ng-container *ngIf="survey.resultsPublish; else elsePublish">
+                        <a [routerLink]="[ '/usuario/estadisticas',survey._id]" routerLinkActive="active current"class="nav-item nav-link">
+                            <button type="button" class="btn btn-info listbtn" i18n>Ver resultados</button>
+                        </a>
+                    </ng-container>
+                    <ng-template #elsePublish>
+                        <button type="button" class="btn  btn-secondary listbtn" i18n>Resultados no disponibles</button>
+                    </ng-template>
+
+                   
                 </div>
             </div>
         </ng-container>

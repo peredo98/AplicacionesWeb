@@ -9,22 +9,39 @@
                         Estadísticas de Encuesta
                     </h4>
                     <h4> 
-                        {{survey.title}}
+                        <div *ngIf="survey">
+                            {{survey.title}}
+                        </div>
                     </h4>
                 </div>
             </div>
         </div>
         <hr>
-        <app-fechas-admin [survey]="survey"></app-fechas-admin>
-        <hr>
-        <div *ngFor="let question of survey.questions">
-            <app-graficas-admin [question]="question"></app-graficas-admin>
+        <div *ngIf="survey">
+            <app-fechas-admin [survey]="survey"></app-fechas-admin>
         </div>
+       
+        <hr>
+        <div *ngIf="survey">
+            <div *ngFor="let question of survey.questions">
+                <div *ngIf="question">
+                    <app-graficas-admin [question]="question"></app-graficas-admin>
+                </div>
+            </div>
+        </div>
+       
        
 
         <div class = "row pt-3 pb-3 whitePurpleContainer justify-content-center">
-            <button type="button" class="btn btn-secondary mr-2 align-self-center" i18n>Regresar</button>
-            <button type="button" class="btn btn-info ml-2" i18n>Publicar</button>
+            <button (click)='goBack()' type="button" class="btn btn-secondary mr-2 align-self-center" i18n>Regresar</button>
+            <div *ngIf="survey">
+                <ng-container *ngIf="survey.resultsPublish; else elsePublish">
+                    <button (click)='togglePublish()' type="button" class="btn btn-warning ml-2" i18n>Ocultar</button>
+                </ng-container>
+                <ng-template #elsePublish>
+                    <button (click)='togglePublish()' type="button" class="btn btn-info ml-2" i18n>Publicar</button>
+                </ng-template>
+            </div>
         </div>
         </section>
     </div>

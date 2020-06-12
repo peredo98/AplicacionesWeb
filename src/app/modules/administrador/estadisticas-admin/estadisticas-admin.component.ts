@@ -13,7 +13,7 @@ export class EstadisticasAdminComponent implements OnInit {
   sub;
 
   constructor(private _Activatedroute:ActivatedRoute,
-    private _router:Router, private surveyService: SurveyService){
+    private router:Router, private surveyService: SurveyService){
   }
 
   ngOnInit(): void {
@@ -29,6 +29,14 @@ export class EstadisticasAdminComponent implements OnInit {
       this.survey = survey;
       console.log(this.survey);
     });
+  }
+
+  goBack(){
+    this.router.navigateByUrl('/admin/listaEncuestas');
+  }
+
+  togglePublish(){
+    this.surveyService.toggleResults(this.survey);
   }
 
 }

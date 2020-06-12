@@ -13,7 +13,7 @@ export class FechasAdminComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.survey.creationDate);
+  
   }
 
 }

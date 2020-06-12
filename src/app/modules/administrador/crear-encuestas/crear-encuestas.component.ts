@@ -57,7 +57,7 @@ export class CrearEncuestasComponent implements OnInit {
     // const newSurvey = JSON.stringify(surveyData);
     console.warn('Survey: ', surveyData);
     this.surveyService.addSurvey(surveyData).subscribe(_ => {
-          this.router.navigateByUrl('/admin/listaEncuestas');
+        this.router.navigateByUrl('/admin/listaEncuestas');
     });
   }
 
