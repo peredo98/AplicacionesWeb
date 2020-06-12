@@ -34,12 +34,25 @@ export class ContestarEncuestaComponent implements OnInit {
     });
   }
 
-  AnswerSurvey(id: String) {
+  AnswerSurvey() {
     /*
     this.surveyService.addVotes(id).subscribe(survey => {
       this.survey = survey;
       console.log(this.survey);
     });
     */
+  }
+
+  radioChangeHandler(event: any){
+    const selectedOption = event.target.value;
+    // this.selectedOptions.push(selectedOption);
+  }
+
+  onSubmit(){
+
+    this.survey.questions.forEach(question => {
+
+    })
+    
   }
 }
