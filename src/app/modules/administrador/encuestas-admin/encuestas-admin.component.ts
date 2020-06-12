@@ -17,6 +17,15 @@ export class EncuestasAdminComponent implements OnInit {
     this.getSurveys();
   }
 
+  deleteSurvey(survey: Survey){
+    this.surveyService.deleteSurvey(survey);
+  }
+
+  toggleSurvey(survey: Survey){
+    console.log("TOGGLE");
+    this.surveyService.toggleSurvey(survey)
+  }
+
   getSurveys(){
     this.surveyService.getSurveys().subscribe(surveys =>{
       this.surveys = surveys;

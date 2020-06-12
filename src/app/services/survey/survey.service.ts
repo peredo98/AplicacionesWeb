@@ -46,23 +46,59 @@ import {map, catchError, tap} from 'rxjs/operators'
             Accept: '*/*',
             'Access-Control-Allow-Origin': '*',
         }
-        
+          
         const requestOptions = {
           headers: new HttpHeaders(headerDict),
         };  
 
         return this.http
-          .get(this.endpoint, requestOptions);
-          // .pipe(map(this.extractData), retry(3), catchError(this.handleError));
+        .get(this.endpoint, requestOptions);
+        // .pipe(map(this.extractData), retry(3), catchError(this.handleError));
+      }
+
+      getSurveyByID(survey: Survey){
+        var headerDict = {
+          'Content-Type': 'application/json',
+            Accept: '*/*',
+            'Access-Control-Allow-Origin': '*',
+        }
           
+        const requestOptions = {
+          headers: new HttpHeaders(headerDict),
+        };  
+
+        return this.http
+        .get(this.endpoint + '/' + survey._id, requestOptions);
       }
 
-      private extractData(res: Response){
-        console.log
-        let body = res;
-        return body || {};
+      
+
+      deleteSurvey(survey: Survey){
+        return this.http
+        .delete(this.endpoint + '/' + survey._id).subscribe();
       }
 
+      toggleSurvey(survey: Survey){
+        var headerDict = {
+          'Content-Type': 'application/json',
+            Accept: '*/*',
+            'Access-Control-Allow-Origin': '*',
+        }
+        const requestOptions = {
+          headers: new HttpHeaders(headerDict),
+        };  
+
+        this.http.put(this.endpoint + '/' + survey._id + '/turn', requestOptions).subscribe(_ => {
+          survey.isPublish = !survey.isPublish;
+        })
+      }
+
+      // private extractData(res: Response){
+      //   console.log
+      //   let body = res;
+      //   return body || {};
+      // }
+      
       addSurvey(survey: Survey):void{
         this.surveys.push(survey);
       }
@@ -70,4 +106,4 @@ import {map, catchError, tap} from 'rxjs/operators'
       constructor(private http: HttpClient) { 
 
       }
-}
+    }
