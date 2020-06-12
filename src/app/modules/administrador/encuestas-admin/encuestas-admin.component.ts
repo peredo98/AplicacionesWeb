@@ -17,13 +17,14 @@ export class EncuestasAdminComponent implements OnInit {
     this.getSurveys();
   }
 
-  deleteSurvey(survey: Survey){
+  deleteSurvey(survey: Survey, i: number){
     this.surveyService.deleteSurvey(survey);
+    this.surveys.splice(i, 1);
   }
 
   toggleSurvey(survey: Survey){
     console.log("TOGGLE");
-    this.surveyService.toggleSurvey(survey)
+    this.surveyService.toggleSurvey(survey);
   }
 
   getSurveys(){

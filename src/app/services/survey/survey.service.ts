@@ -15,6 +15,16 @@ import {map, catchError, tap} from 'rxjs/operators'
     endpoint = 'http://localhost:8080/api/surveys';
     surveys:Survey[];
 
+    headerDict = {
+      'Content-Type': 'application/json',
+        Accept: '*/*',
+        'Access-Control-Allow-Origin': '*',
+    }
+      
+    requestOptions = {
+      headers: new HttpHeaders(this.headerDict),
+    }; 
+
     handleError(error: HttpErrorResponse){
       let errorMessage = "Unknown error!";
       if(error.error instanceof ErrorEvent){
@@ -41,55 +51,30 @@ import {map, catchError, tap} from 'rxjs/operators'
       getSurveys():Observable<any>{
         console.log("GET SURVEEEYS");
 
-        var headerDict = {
-          'Content-Type': 'application/json',
-            Accept: '*/*',
-            'Access-Control-Allow-Origin': '*',
-        }
-          
-        const requestOptions = {
-          headers: new HttpHeaders(headerDict),
-        };  
-
         return this.http
-        .get(this.endpoint, requestOptions);
+        .get(this.endpoint, this.requestOptions);
         // .pipe(map(this.extractData), retry(3), catchError(this.handleError));
       }
 
-      getSurveyByID(survey: Survey){
-        var headerDict = {
-          'Content-Type': 'application/json',
-            Accept: '*/*',
-            'Access-Control-Allow-Origin': '*',
-        }
-          
-        const requestOptions = {
-          headers: new HttpHeaders(headerDict),
-        };  
+      getSurveyByID(survey: Survey){ 
 
         return this.http
-        .get(this.endpoint + '/' + survey._id, requestOptions);
+        .get(this.endpoint + '/' + survey._id, this.requestOptions);
       }
 
-      
-
       deleteSurvey(survey: Survey){
-        return this.http
-        .delete(this.endpoint + '/' + survey._id).subscribe();
+        this.http
+        .delete(this.endpoint + '/' + survey._id, this.requestOptions).subscribe(_ => { 
+          this.surveys.forEach( (item, index) => {
+            if(item._id == survey._id) this.surveys.splice(index,1);
+          });
+        });
       }
 
       toggleSurvey(survey: Survey){
-        var headerDict = {
-          'Content-Type': 'application/json',
-            Accept: '*/*',
-            'Access-Control-Allow-Origin': '*',
-        }
-        const requestOptions = {
-          headers: new HttpHeaders(headerDict),
-        };  
 
-        this.http.put(this.endpoint + '/' + survey._id + '/turn', requestOptions).subscribe(_ => {
-          survey.isPublish = !survey.isPublish;
+        this.http.put(this.endpoint + '/' + survey._id + '/turn', this.requestOptions).subscribe(_ => {
+          survey.isPublish = !survey.isPublish
         })
       }
 

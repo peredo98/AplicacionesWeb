@@ -17,6 +17,8 @@ import {registerLocaleData} from '@angular/common';
 import localeMX from '@angular/common/locales/es-MX'; 
 import localeUS from '@angular/common/locales/en'; 
 import { SharedModule } from './modules/shared/shared.module';
+import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 registerLocaleData(localeMX, 'es-MX');     
 registerLocaleData(localeUS, 'en');
@@ -41,6 +43,8 @@ registerLocaleData(localeUS, 'en');
     AdministradorModule,
     UsuarioModule,
     HttpClientModule,
+    MatCardModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

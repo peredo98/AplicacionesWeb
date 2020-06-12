@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder} from '@angular/forms';
+import { FormBuilder, FormGroup} from '@angular/forms';
 import { SurveyService } from 'src/app/services/survey/survey.service';
 import { Router } from '@angular/router';
 
@@ -10,7 +10,8 @@ import { Router } from '@angular/router';
 })
 export class CrearEncuestasComponent implements OnInit {
   createSurveyForm;
-
+  
+  optionsLength: Number;
   constructor(private formBuilder: FormBuilder, private router: Router, private surveyService: SurveyService) {
 
     this.createSurveyForm = this.formBuilder.group({
@@ -20,6 +21,14 @@ export class CrearEncuestasComponent implements OnInit {
       option3 : '',
       option4 : '',
     });
+  }
+
+  addQuestion(){
+    
+  }
+
+  createSurvey(){
+      
   }
 
   ngOnInit(): void {

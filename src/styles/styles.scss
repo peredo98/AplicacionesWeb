@@ -67,3 +67,6 @@ $styleWrapperFlex:1;
 .whitePurpleContainer{
   background-color: $white-purple;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
