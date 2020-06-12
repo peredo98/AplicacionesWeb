@@ -13,7 +13,8 @@ import { HttpClient } from '@angular/common/http';
 export class ContestarEncuestaComponent implements OnInit {
   survey: Survey;
   sub;
-  selectedOptions: [];
+  selectedOptions: String[] = [];
+  
 
   constructor(private _Activatedroute:ActivatedRoute,
     private _router:Router, private surveyService: SurveyService){
@@ -31,7 +32,11 @@ export class ContestarEncuestaComponent implements OnInit {
     this.surveyService.getSurveyByID(id).subscribe(survey => {
       this.survey = survey;
       console.log(this.survey);
+      this.survey.questions.forEach(question => {
+        this.selectedOptions.push(question.options[question.options.length-1].title);
+      });
     });
+    
   }
 
   AnswerSurvey() {
@@ -43,16 +48,23 @@ export class ContestarEncuestaComponent implements OnInit {
     */
   }
 
-  radioChangeHandler(event: any){
-    const selectedOption = event.target.value;
-    // this.selectedOptions.push(selectedOption);
+  onItemChange(value: String, index: number){
+
+    
+    console.log(" Value is : ", value );
+    console.log(" Index is : ", index );
+
+    if(this.selectedOptions[index] !== undefined){
+      this.selectedOptions[index] = value;
+    }
+
+    console.log(this.selectedOptions);
+
   }
 
   onSubmit(){
 
-    this.survey.questions.forEach(question => {
-
-    })
+    console.log("RESULTADOS: ", this.selectedOptions);
     
   }
 }

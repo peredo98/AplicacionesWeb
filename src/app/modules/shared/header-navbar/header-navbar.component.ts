@@ -10,7 +10,7 @@ export class HeaderNavbarComponent implements OnInit {
   @Input()
   section: string;
 
-  constructor() { }
+  constructor(public auth: AuthService) {}
 
   ngOnInit(): void {
   }

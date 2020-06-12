@@ -8,6 +8,7 @@ import { AboutComponent } from './modules/shared/about/about.component';
 import { PoliciesComponent } from './modules/shared/policies/policies.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data:{animation:'isHome'}},
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'policies', component: PoliciesComponent, data:{animation: 'isPolicies'}},
   { path: 'login', component: LoginComponent, data:{animation: 'isLogin'}},
   { path: 'signup', component: SignupComponent, data:{animation: 'isSignup'}},
+  { path: 'news', component: NewsComponent, },
   { path:'usuario',loadChildren:'./modules/usuario/usuario.module#UsuarioModule'},
   { path:'admin',loadChildren:'./modules/administrador/administrador.module#AdministradorModule'},
   { path: '**',component:PageNotFoundComponent}

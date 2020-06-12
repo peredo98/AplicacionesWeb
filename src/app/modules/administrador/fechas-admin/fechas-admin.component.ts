@@ -10,7 +10,7 @@ export class FechasAdminComponent implements OnInit {
   @Input()
   survey: Survey;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   
