@@ -17,7 +17,6 @@ import {registerLocaleData} from '@angular/common';
 import localeMX from '@angular/common/locales/es-MX'; 
 import localeUS from '@angular/common/locales/en'; 
 import { SharedModule } from './modules/shared/shared.module';
-import { NewsComponent } from './news/news.component';
 
 registerLocaleData(localeMX, 'es-MX');     
 registerLocaleData(localeUS, 'en');
@@ -31,7 +30,6 @@ registerLocaleData(localeUS, 'en');
     LoginFormComponent,
     RegisterFormComponent,
     PageNotFoundComponent,
-    NewsComponent,
   ],
   imports: [
     SharedModule,
@@ -43,10 +41,7 @@ registerLocaleData(localeUS, 'en');
     AdministradorModule,
     UsuarioModule,
     HttpClientModule,
-<<<<<<< HEAD
-=======
 
->>>>>>> scss-fixed
   ],
   providers: [],
   bootstrap: [AppComponent]

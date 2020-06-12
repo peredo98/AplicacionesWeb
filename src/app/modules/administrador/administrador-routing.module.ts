@@ -8,9 +8,12 @@ import { CrearEncuestasComponent } from './crear-encuestas/crear-encuestas.compo
 import { HomeComponent } from 'src/app/modules/shared/home/home.component';
 import { AboutComponent } from 'src/app/modules/shared/about/about.component';
 import { PoliciesComponent } from '../shared/policies/policies.component';
+import { NewsComponent } from '../shared/news/news.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: {section : 'admin', animation: 'isHome'}},
+  { path: 'news', component: NewsComponent, data: {section : 'admin'}},
   { path: 'about', component: AboutComponent, data: {section : 'admin', animation: 'isAbout'}},
   { path: 'policies', component: PoliciesComponent, data: {section : 'admin', animation: 'isPolicies'}},
   { path: 'crearEncuestas', component: CrearEncuestasComponent, data:{ animation: 'isCrearEncuestas'}},

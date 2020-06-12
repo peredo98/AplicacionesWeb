@@ -8,11 +8,13 @@ import { LoginComponent } from 'src/app/login/login.component';
 import { HomeComponent } from 'src/app/modules/shared/home/home.component';
 import { AboutComponent } from 'src/app/modules/shared/about/about.component';
 import { PoliciesComponent } from '../shared/policies/policies.component';
+import { NewsComponent } from '../shared/news/news.component';
 
 
 
 const routes: Routes = [
 { path: '', component: HomeComponent, data: {section : 'usuario', animation:'isHome'}},
+{ path: 'news', component: NewsComponent, data: {section : 'admin'}},
 { path: 'about', component: AboutComponent, data: {section : 'usuario', animation:'isAbout'}},
 { path: 'policies', component: PoliciesComponent, data: {section : 'usuario', animation:'isPolicies'}},
 { path: 'signup', component: SignupComponent, data:{animation: 'isSignup'}},

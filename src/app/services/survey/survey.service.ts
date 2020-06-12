@@ -15,8 +15,6 @@ import {map, catchError, tap} from 'rxjs/operators'
     endpoint = 'http://localhost:8080/api/surveys';
     surveys:Survey[];
 
-<<<<<<< HEAD
-=======
     headerDict = {
       'Content-Type': 'application/json',
         Accept: '*/*',
@@ -27,7 +25,6 @@ import {map, catchError, tap} from 'rxjs/operators'
       headers: new HttpHeaders(this.headerDict),
     }; 
 
->>>>>>> scss-fixed
     handleError(error: HttpErrorResponse){
       let errorMessage = "Unknown error!";
       if(error.error instanceof ErrorEvent){
@@ -52,40 +49,6 @@ import {map, catchError, tap} from 'rxjs/operators'
 
 
       getSurveys():Observable<any>{
-<<<<<<< HEAD
-        console.log("GET SURVEEEYS");
-
-        var headerDict = {
-          'Content-Type': 'application/json',
-            Accept: '*/*',
-            'Access-Control-Allow-Origin': '*',
-        }
-        
-        const requestOptions = {
-          headers: new HttpHeaders(headerDict),
-        };  
-
-        return this.http
-          .get(this.endpoint, requestOptions);
-          // .pipe(map(this.extractData), retry(3), catchError(this.handleError));
-          
-      }
-
-      private extractData(res: Response){
-        console.log
-        let body = res;
-        return body || {};
-      }
-
-      addSurvey(survey: Survey):void{
-        this.surveys.push(survey);
-      }
-
-      constructor(private http: HttpClient) { 
-
-      }
-}
-=======
 
         return this.http
         .get(this.endpoint, this.requestOptions);
@@ -129,10 +92,9 @@ import {map, catchError, tap} from 'rxjs/operators'
         let obj = {};
         obj = {"selectedOptions" : selectedOptions};
         console.log(obj);
-        const body = JSON.stringify(obj, null, 2);
+        const body = JSON.stringify(obj, null, 1);
 
         console.log(body);
-        console.log(survey._id);
 
         return this.http.put(this.endpoint + '/' + survey._id + '/addVotes', body ,this.requestOptions).subscribe(_ => {
           console.log("DONE");
@@ -159,4 +121,3 @@ import {map, catchError, tap} from 'rxjs/operators'
 
       }
     }
->>>>>>> scss-fixed

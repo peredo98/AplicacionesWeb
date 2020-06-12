@@ -10,12 +10,10 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule} from '@angular/common/http';
-<<<<<<< HEAD
-=======
 import { PerfilComponent } from './perfil/perfil.component';
+import { NewsComponent } from './news/news.component';
 // import {MatCardModule} from '@angular/material/card';
 // import {MatFormFieldModule} from '@angular/material/form-field';
->>>>>>> scss-fixed
 
 
 
@@ -24,6 +22,7 @@ import { PerfilComponent } from './perfil/perfil.component';
     AboutComponent,
     FooterComponent,
     HomeComponent,
+    NewsComponent,
     HomeCarouselComponent,
     HeaderComponent,
     HeaderNavbarComponent,
@@ -33,13 +32,9 @@ import { PerfilComponent } from './perfil/perfil.component';
   imports: [
     CommonModule,
     RouterModule,
-<<<<<<< HEAD
-    HttpClientModule
-=======
     HttpClientModule,
     // MatCardModule,
     // MatFormFieldModule,
->>>>>>> scss-fixed
   ],
   exports : [
     AboutComponent,
@@ -49,6 +44,7 @@ import { PerfilComponent } from './perfil/perfil.component';
     HeaderComponent,
     HeaderNavbarComponent,
     PoliciesComponent,
+    NewsComponent
     // MatCardModule,
     // MatFormFieldModule,
   ],

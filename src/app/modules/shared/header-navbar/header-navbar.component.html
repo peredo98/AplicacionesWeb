@@ -10,10 +10,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav" [ngSwitch]="section">
                 <a *ngSwitchDefault routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a *ngSwitchDefault routerLink="/news" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Noticias</a>
                 <a *ngSwitchCase="'admin'" [routerLinkActiveOptions]="{ exact: true }" routerLink="/admin" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a *ngSwitchCase="'admin'" [routerLinkActiveOptions]="{ exact: true }" routerLink="/admin/news" routerLinkActive="active current" class="nav-item nav-link" i18n>Noticias</a>
                 <a *ngSwitchCase="'admin'" routerLink="/admin/listaEncuestas" routerLinkActive="active current" class="nav-item nav-link" i18n>Ver Encuestas</a>
                 <a *ngSwitchCase="'admin'" routerLink="/admin/crearEncuestas" routerLinkActive="active current" class="nav-item nav-link" i18n>Crear Encuestas</a>
                 <a *ngSwitchCase="'usuario'" [routerLinkActiveOptions]="{ exact: true }" routerLink="/usuario" routerLinkActive="active current" class="nav-item nav-link" i18n>Inicio</a>
+                <a *ngSwitchCase="'usuario'" [routerLinkActiveOptions]="{ exact: true }" routerLink="/usuario/news" routerLinkActive="active current" class="nav-item nav-link" i18n>Noticias</a>
                 <a *ngSwitchCase="'usuario'" routerLink="/usuario/listaEncuestas" routerLinkActive="active current" class="nav-item nav-link" i18n>Encuestas</a>
             </div>
             <div class="navbar-nav ml-auto" [ngSwitch]="section">

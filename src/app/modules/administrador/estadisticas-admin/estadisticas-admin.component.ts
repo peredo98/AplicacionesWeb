@@ -13,11 +13,7 @@ export class EstadisticasAdminComponent implements OnInit {
   sub;
 
   constructor(private _Activatedroute:ActivatedRoute,
-<<<<<<< HEAD
-    private _router:Router, private surveyService: SurveyService){
-=======
     private router:Router, private surveyService: SurveyService){
->>>>>>> scss-fixed
   }
 
   ngOnInit(): void {
