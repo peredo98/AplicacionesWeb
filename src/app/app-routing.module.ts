@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'policies', component: PoliciesComponent, data:{animation: 'isPolicies'}},
   { path: 'login', component: LoginComponent, data:{animation: 'isLogin'}},
   { path: 'signup', component: SignupComponent, data:{animation: 'isSignup'}},
-  { path: 'news', component: NewsComponent, },
+  { path: 'news', component: NewsComponent, data:{animation: 'isNews'} }, // Animation news
   { path:'usuario',loadChildren:'./modules/usuario/usuario.module#UsuarioModule'},
   { path:'admin',loadChildren:'./modules/administrador/administrador.module#AdministradorModule'},
   {
