@@ -9,11 +9,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./crear-encuestas.component.scss']
 })
 export class CrearEncuestasComponent implements OnInit {
-  surveyService: SurveyService;
   createSurveyForm;
 
-  constructor(private formBuilder: FormBuilder, private router: Router) {
-    this.surveyService = new SurveyService();
+  constructor(private formBuilder: FormBuilder, private router: Router, private surveyService: SurveyService) {
 
     this.createSurveyForm = this.formBuilder.group({
       question : '',

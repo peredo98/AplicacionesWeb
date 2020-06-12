@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule} from '@angular/common/http';
 
 
 
@@ -24,7 +25,8 @@ import { BrowserModule } from '@angular/platform-browser';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   exports : [
     AboutComponent,

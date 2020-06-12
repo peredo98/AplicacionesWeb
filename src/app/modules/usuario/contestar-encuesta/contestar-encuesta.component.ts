@@ -3,6 +3,7 @@ import { Survey } from 'src/app/models/survey.model';
 import { SurveyService } from 'src/app/services/survey/survey.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Route } from '@angular/compiler/src/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contestar-encuesta',
@@ -11,12 +12,10 @@ import { Route } from '@angular/compiler/src/core';
 })
 export class ContestarEncuestaComponent implements OnInit {
   survey: Survey;
-  surveyService: SurveyService;
   sub;
 
   constructor(private _Activatedroute:ActivatedRoute,
-    private _router:Router){
-      this.surveyService = new SurveyService();
+    private _router:Router, private surveyService: SurveyService){
   }
 
   ngOnInit(): void {

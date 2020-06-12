@@ -9,10 +9,8 @@ import { SurveyService} from 'src/app/services/survey/survey.service';
 export class EncuestasAdminComponent implements OnInit {
 
   surveys: Survey[];
-  surveyService: SurveyService;
 
-  constructor() { 
-    this.surveyService = new SurveyService();
+  constructor(private surveyService: SurveyService) { 
   }
 
   ngOnInit(): void {
