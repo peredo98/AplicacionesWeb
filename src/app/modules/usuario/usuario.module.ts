@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 import { UsuarioRoutingModule} from './usuario-routing.module';
 import { ContestarEncuestaComponent } from './contestar-encuesta/contestar-encuesta.component';
@@ -29,6 +30,7 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     SharedModule,
     UsuarioRoutingModule,
+    HttpClientModule,
   ]
 })
 export class UsuarioModule { }

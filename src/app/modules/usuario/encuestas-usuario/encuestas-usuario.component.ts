@@ -9,10 +9,8 @@ import { SurveyService} from 'src/app/services/survey/survey.service';
 export class EncuestasUsuarioComponent implements OnInit {
 
   surveys: Survey[];
-  surveyService: SurveyService;
 
-  constructor() {
-    this.surveyService = new SurveyService();
+  constructor(private surveyService: SurveyService) {
    }
 
   ngOnInit(): void {
@@ -21,6 +19,7 @@ export class EncuestasUsuarioComponent implements OnInit {
 
   getSurveys(){
     this.surveyService.getSurveys().subscribe(surveys =>{
+      console.log(surveys);
       this.surveys = surveys;
     });
   }

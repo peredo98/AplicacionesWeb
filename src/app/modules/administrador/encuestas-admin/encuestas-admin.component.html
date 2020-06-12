@@ -6,22 +6,22 @@
         <div class = "columnTable"><span class = "align-middle" i18n>Acción</span></div>
         <div class = "columnTable"><span class = "align-middle"></span></div>
     </div>
-    <ng-container *ngFor="let survey of surveys">
+    <ng-container *ngFor="let survey of surveys; let i = index">
         <div class = "rowTable">
             <div class = "columnTable"><p>{{survey.title}}</p></div>
             <div class = "columnTable dates"><p>{{survey.endDate}}</p></div>
             <ng-container *ngIf="survey.isPublish; else elsePublish">
-                <div class = "columnTable"><button type="button" class="btn btn-primary listbtn" i18n>Publicar</button></div>
+                <div (click)="toggleSurvey(survey)" class = "columnTable"><button type="button" class="btn btn-warning listbtn" i18n>Ocultar</button></div>
             </ng-container>
             <ng-template #elsePublish>
-                <div class = "columnTable"><button type="button" class="btn btn-warning listbtn" i18n>Ocultar</button></div>
+                <div (click)="toggleSurvey(survey)" class = "columnTable"><button type="button" class="btn btn-primary listbtn" i18n>Publicar</button></div>
             </ng-template>
             <div class = "columnTable">
-                <a [routerLink]="[ '/admin/estadisticas',survey.id]" routerLinkActive="active current"class="nav-item nav-link">
+                <a [routerLink]="[ '/admin/estadisticas',survey._id]" routerLinkActive="active current"class="nav-item nav-link">
                     <button type="button" class="btn btn-info listbtn" i18n>Ver resultados</button>
                 </a>
             </div>
-            <div class = "columnTable"><button type="button" class="btn btn-danger listbtn" i18n>Eliminar</button></div>
+            <div (click)="deleteSurvey(survey, i);" class = "columnTable"><button type="button" class="btn btn-danger listbtn" i18n>Eliminar</button></div>
         </div>
     </ng-container>
 </div>

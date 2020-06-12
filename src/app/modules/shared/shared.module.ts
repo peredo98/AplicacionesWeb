@@ -9,7 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { PerfilComponent } from './perfil/perfil.component';
+import { HttpClientModule} from '@angular/common/http';
+// import {MatCardModule} from '@angular/material/card';
+// import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -21,12 +23,14 @@ import { PerfilComponent } from './perfil/perfil.component';
     HomeCarouselComponent,
     HeaderComponent,
     HeaderNavbarComponent,
-    PoliciesComponent,
-    PerfilComponent
+    PoliciesComponent
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule,
+    // MatCardModule,
+    // MatFormFieldModule,
   ],
   exports : [
     AboutComponent,
@@ -36,6 +40,8 @@ import { PerfilComponent } from './perfil/perfil.component';
     HeaderComponent,
     HeaderNavbarComponent,
     PoliciesComponent,
+    // MatCardModule,
+    // MatFormFieldModule,
   ],
 })
 export class SharedModule { }

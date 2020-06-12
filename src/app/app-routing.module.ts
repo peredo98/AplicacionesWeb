@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {Routes, RouterModule} from '@angular/router';
@@ -7,9 +8,7 @@ import { AboutComponent } from './modules/shared/about/about.component';
 import { PoliciesComponent } from './modules/shared/policies/policies.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
-import { AuthGuard } from './guards/auth.guard';
-import { from } from 'rxjs';
-import { PerfilComponent } from './modules/shared/perfil/perfil.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent, data:{animation:'isHome'}},
   { path: 'about', component: AboutComponent, data:{ animation: 'isAbout'} },
@@ -18,11 +17,6 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent, data:{animation: 'isSignup'}},
   { path:'usuario',loadChildren:'./modules/usuario/usuario.module#UsuarioModule'},
   { path:'admin',loadChildren:'./modules/administrador/administrador.module#AdministradorModule'},
-  {
-    path: 'perfil',
-    component: PerfilComponent,
-    canActivate: [AuthGuard],
-  },
   { path: '**',component:PageNotFoundComponent}
 ];
 
@@ -35,8 +29,3 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
                              
-/*
- path: 'perfil',
-    component: PerfilComponent,
-    canActivate: [AuthGuard],
-    */

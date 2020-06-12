@@ -1,0 +1,47 @@
+$candidatesDisplay: flex;
+$candidatesFlexDirection: column;
+$candidatesFlex: 1;
+$candidatesBorder: 1px;
+$candidatesMaxWidth: 100%;
+$candidatesContainerMargin: 0;
+$candidatesContainerBorder: 2px solid  $gray-border;
+$candidatesContainerAlignment: center;
+$filterCandidatesBorderRadius :15px 15px 0px 0px;
+$filterCandidatesFlexAlignCenter: row;
+$imgCandidate: 200px;
+$imgParty: 30px;
+
+.content_candidatos {
+    display: $candidatesDisplay;
+    flex-direction: $candidatesFlexDirection;
+    flex: $candidatesFlex;
+    border: $candidatesBorder;
+    max-width: $candidatesMaxWidth;
+}
+
+.container_candidato {
+    margin: $candidatesContainerMargin;
+    border: $candidatesContainerBorder;
+    background-color: $softest-purple;
+    display: $candidatesDisplay;
+    flex-direction: $candidatesFlexDirection;
+    align-items: $candidatesContainerAlignment;
+}
+
+.filtroCandidatos {
+    background-color: $gray-background;
+    border-radius: $filterCandidatesBorderRadius;
+    @include flexAlignCenter($filterCandidatesFlexAlignCenter);
+}
+
+.img-candidato {
+    @include resizeImage($imgCandidate);
+}
+
+.img-partido-sm {
+    @include resizeImage($imgParty);
+}
+
+.selectText {
+    @include labelText;
+}

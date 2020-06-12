@@ -1,3 +1,30 @@
+$dark-purple: #7852A4;
+$soft-purple: #EADDFA;
+$softest-purple:  #F2EBFA;
+$gray-purple: #ECE7F1;
+$gray-text: #6f777b;
+$gray-border: #C1C1C1;
+$gray-background: #D1D1D1;
+$gray-text: #414046;
+$white: #FFF;
+$white-purple: #F4F0FA;
+$labelFontText: 700;
+$whiteMoreWhite: #f0f0f0;
+$red: #ff0000;
+$green:#00ff00;
+$blue: #0000ff;
+
+$flexCenterDispay: flex;
+$flexCenterJustify: center;
+$flexAlignCenterAlignItems: center;
+$form_styleBorder: 1px solid #E1E1E1;
+$form_styleBorderRadius: 10px;
+$infoTextAlign: center;
+$activeFontWeight: 600;
+$resizeImageWidth: auto;
+$polaroidImageBorder: 1px solid #ddd;
+$polaroidImageBorderRadius: 4px;
+$polaroidImagePadding: 5px;
 
 @mixin flexCenter($direction){
     display: $flexCenterDispay;
