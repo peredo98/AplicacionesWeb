@@ -13,6 +13,7 @@ import { GraficasAdmin2Component } from './graficas-admin2/graficas-admin2.compo
 import { GraficasAdmin3Component } from './graficas-admin3/graficas-admin3.component';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+// import { FormEncuestaComponent } from './form-encuesta/form-encuesta.component';
 
 @NgModule({
   declarations: [CrearEncuestasComponent, 
@@ -23,8 +24,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
                 GraficasAdminComponent, 
                 ListaEncuestasAdminComponent,
                 GraficasAdmin2Component,
-                GraficasAdmin3Component],
-  imports: [
+                GraficasAdmin3Component,
+                // FormEncuestaComponent
+              ],
+    imports: [
     CommonModule,
     SharedModule,
     AdministradorRoutingModule,

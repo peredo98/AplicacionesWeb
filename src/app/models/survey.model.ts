@@ -2,7 +2,7 @@ import { Question } from './question.model';
 
 export class Survey {
 
-    constructor(public id?: number,
+    constructor(public _id?: string,
         public title?: string,
         public startDate?: string,
         public endDate?: string,
@@ -10,7 +10,9 @@ export class Survey {
         public questions?: Question[],
         public city?: string,
         public state?: string,
-        public isPublish?: boolean){
+        public isPublish?: boolean,
+        public resultsPublish?: boolean,
+        ){
 
     }
     

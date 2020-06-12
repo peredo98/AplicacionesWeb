@@ -10,6 +10,12 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule} from '@angular/common/http';
+<<<<<<< HEAD
+=======
+import { PerfilComponent } from './perfil/perfil.component';
+// import {MatCardModule} from '@angular/material/card';
+// import {MatFormFieldModule} from '@angular/material/form-field';
+>>>>>>> scss-fixed
 
 
 
@@ -21,12 +27,19 @@ import { HttpClientModule} from '@angular/common/http';
     HomeCarouselComponent,
     HeaderComponent,
     HeaderNavbarComponent,
-    PoliciesComponent
+    PoliciesComponent,
+    PerfilComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
+<<<<<<< HEAD
     HttpClientModule
+=======
+    HttpClientModule,
+    // MatCardModule,
+    // MatFormFieldModule,
+>>>>>>> scss-fixed
   ],
   exports : [
     AboutComponent,
@@ -36,6 +49,8 @@ import { HttpClientModule} from '@angular/common/http';
     HeaderComponent,
     HeaderNavbarComponent,
     PoliciesComponent,
+    // MatCardModule,
+    // MatFormFieldModule,
   ],
 })
 export class SharedModule { }

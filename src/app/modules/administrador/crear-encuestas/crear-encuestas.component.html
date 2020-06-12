@@ -2,52 +2,75 @@
     <app-header [section]="'admin'"></app-header>
     <section class = 'content_login'>
         <div class = 'title_container'>
-            <h2 i18n> 
+            <h2 i18n class = "mt-3"> 
                 Crear Encuesta
             </h2>
         </div>
         <div class = 'form_container'>
-            <form class = "form_login col-lg-4 col-md-5 col-sm-6 col-10" [formGroup]="createSurveyForm" (ngSubmit)="onSubmit(createSurveyForm.value)">
-                <div class = "pregunta">
-                    <div class="form-row">
-                        <div class="col-lg-12 mb-3">
-                            <label for="inputPregunta" i18n>Pregunta</label>
-                            <input formControlName="question" type="text" class="form-control" id="inputPregunta" placeholder="Pregunta" required>
-                        </div>
+        <!-- <form [formGroup] = "createSurveyForm" (ngSubmit)="onSubmit(createSurveyForm.value)" class = "form_login col-lg-4 col-md-7 col-sm-6 col-10"> -->
+            <form [formGroup] = "createSurveyForm" (ngSubmit)="onSubmit(createSurveyForm.value)" ngNativeValidate class = "form_login col-lg-4 col-md-7 col-sm-6 col-10">
+            <div class = "pregunta">
+                <div class="form-row col-lg-12 mb-3">
+                    <label for="inputPregunta" i18n>Título de encuesta</label>
+                    <input formControlName="title"  type="text" class="form-control" id="inputtitle" placeholder="Título" required>
+                </div>
+                <div class="form-row col-12 mb-3 d-flex justify-content-between">
+                    <div class="form-row col-6">
+                        <label for="inputPregunta" i18n>Fecha de Comienzo</label>
+                        <input formControlName="startDate"  type="text" class="form-control" id="inputstartDate" placeholder="XX/XX/XX" required>
                     </div>
-                    <div class="form-row d-flex justify-content-center">
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" i18n>
-                                Número de opciones
-                            </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item">2</a>
-                                <a class="dropdown-item">3</a>
-                                <a class="dropdown-item">4</a>
-                                <a class="dropdown-item">5</a>
-                                <a class="dropdown-item">6</a>
-                                <a class="dropdown-item">7</a>
-                                <a class="dropdown-item">8</a>
-                                <a class="dropdown-item">9</a>
+                    <div class="form-row col-6">
+                        <label for="inputPregunta" i18n>Fecha de Cierre</label>
+                        <input formControlName="endDate" type="text" class="form-control" id="inputendDate" placeholder="XX/XX/XX" required>
+                    </div>
+                </div>
+                <div class="form-row col-lg-12 mb-2">
+                    <label for="inputPregunta" i18n>Fecha de creación</label>
+                    <input formControlName="creationDate" type="text" class="form-control" id="creationDate" placeholder="XX/XX/XX" required>
+                </div>
+                <div class="form-row col-12 mb-3 d-flex justify-content-between">
+                    <div class="form-row col-md-6 col-12 mb-2">
+                        <label for="inputPregunta" i18n>Ciudad</label>
+                        <input formControlName="city"  type="text" class="form-control" id="inputCity" placeholder="Ciudad" required>
+                    </div>
+                    <div class="form-row col-md-6 col-12 mb-2">
+                        <label for="inputPregunta" i18n>Estado</label>
+                        <input formControlName="state"type="text" class="form-control" id="inputState" placeholder="Estado" required>
+                    </div>
+                </div>
+                
+                <div formArrayName="questions">
+                    <div *ngFor = "let quest of createSurveyForm.get('questions').controls; let i=index"> 
+                        <div [formGroupName]="i">
+                            <div class="form-group col-12 mb-2">
+                                <label for="inputPregunta" i18n>Pregunta {{i+1}}</label>
+                                <input formControlName = "title" type="text" class="form-control" id="inputPregunta" placeholder="Pregunta" required>
+                            </div>
+
+                            <div formArrayName = "options">
+                                <div *ngFor = "let op of quest.get('options').controls; let j=index"> 
+                                    <div [formGroupName]="j" class = "d-flex justify-content-center mt-1">
+                                        <div class="form-group d-flex align-items-center justify-content-between col-12 mb-2">
+                                            <input  formControlName = "title" type="text" class="form-control col-10" id="inputPregunta" placeholder="Opción" required>
+                                            <button class="btn btn-danger mt-2 mb-2 text-md col-1 text-center" type='button' (click) = "deleteOption(quest.controls.options,j)" i18n>X</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "d-flex justify-content-center">
+                                <button class="btn btn-info col-5 mt-2 mb-2 text-md" type='button' (click) = "addNewOption(quest.controls.options)" i18n>Agregar Opción</button>
+                            </div>
+                            <div class = "d-flex justify-content-center">
+                                <button class="btn btn-danger col-5 mt-2 mb-2 text-md" type='button' (click) = "deleteQuestion(i)" i18n>Eliminar Pregunta</button>
                             </div>
                         </div>
                     </div>
-                    <div class="form-row pt-2">
-                        <div class="col-lg-12 mb-3">
-                            <label for="inputOpcion1" i18n>Opciones</label>
-                            <input formControlName="option1" type="text" class="form-control" id="inputOpcion1" placeholder="Opción 1" required>
-                            <br/>
-                            <input formControlName="option2" type="text" class="form-control" id="inputOpcion2" placeholder="Opción 2" required>
-                            <br/>
-                            <input formControlName="option3" type="text" class="form-control" id="inputOpcion3" placeholder="Opción 3" required>
-                            <br/>
-                            <input formControlName="option4" type="text" class="form-control" id="inputOpcion4" placeholder="Opción 4" required>
-                        </div>
-                    </div>
-                </div>
-                <button class="btn btn-primary mt-3" type="submit" i18n>Agregar Pregunta</button>
-                <button class="btn btn-primary mt-3" type="submit" i18n>Crear encuesta</button>
-            </form>
+                </div> 
+
+            </div>
+            <button class="btn btn-primary mt-3" type='button' (click) = "addNewQuestion()" i18n>Agregar Pregunta</button>
+            <button class="btn btn-primary mt-3" type="submit" i18n>Crear encuesta</button>
+        </form>
         </div>
     </section>
 </div>

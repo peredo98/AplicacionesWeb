@@ -13,6 +13,8 @@ import { HttpClient } from '@angular/common/http';
 export class ContestarEncuestaComponent implements OnInit {
   survey: Survey;
   sub;
+  selectedOptions: String[] = [];
+  
 
   constructor(private _Activatedroute:ActivatedRoute,
     private _router:Router, private surveyService: SurveyService){
@@ -20,20 +22,42 @@ export class ContestarEncuestaComponent implements OnInit {
 
   ngOnInit(): void {
     this.sub = this._Activatedroute.paramMap.subscribe(params => { 
-        var id = +params.get('id'); 
-        this.survey = this.getSurveyById(id);
+        var id = params.get('id'); 
+        this.getSurveyById(id);
     });
   }
 
-  getSurveyById(id: number): Survey {
-    var retSurvey = new Survey();
-    this.surveyService.getSurveys().subscribe(surveys =>{
-      surveys.forEach(function (survey) {
-        if(id == survey.id){
-          retSurvey = survey;
-        }
-      }); 
+  getSurveyById(id: String) {
+  
+    this.surveyService.getSurveyByID(id).subscribe(survey => {
+      this.survey = survey;
+      console.log(this.survey);
+      this.survey.questions.forEach(question => {
+        this.selectedOptions.push(question.options[question.options.length-1].title);
+      });
     });
-    return retSurvey;
+    
+  }
+
+  AnswerSurvey() {
+    this.surveyService.addVotes(this.survey, this.selectedOptions )
+  }
+
+  onItemChange(value: String, index: number){
+
+    
+    console.log(" Value is : ", value );
+    console.log(" Index is : ", index );
+
+    if(this.selectedOptions[index] !== undefined){
+      this.selectedOptions[index] = value;
+    }
+
+    console.log(this.selectedOptions);
+
+  }
+
+  onSubmit(){
+    this.AnswerSurvey()
   }
 }

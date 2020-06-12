@@ -14,15 +14,27 @@
         <div class = 'form_container'>
             <form class = "form_login col-lg-4 col-md-5 col-sm-6 col-10">
                 <div class = "pregunta">
-                    <div *ngFor="let question of survey.questions">
-                        <app-contestar-pregunta [question]="question"></app-contestar-pregunta>
+                    <div *ngFor="let question of survey.questions; let i = index">
+                        <div class="form-row">
+                            <div class="col-lg-12 text-center">
+                                <p class = "preguntaUsuario">{{question.title}}</p>
+                            </div>
+                        </div>
+                        <div class="form-row pt-2">
+                            <div class="col-lg-12 mb-2">
+                                <div *ngFor="let option of question.options; let j = index">
+                                    <input (change)="onItemChange($event.target.value, i)" type="radio" id="opcion-{{option.id}}" name="{{question.title}}" value="{{option.title}}" [checked]="true"  required>
+                                    <label class = "pl-2" for="opcion-{{option.id}}">{{option.title}}</label><br>
+                                </div>
+                            </div>
+                        </div>
                         <hr>
                     </div>
                 </div>
                 <a routerLink="/usuario/listaEncuestas" routerLinkActive="active" >
-                    <button class="btn btn-secondary mt-3" type="submit">Cancelar</button>
+                    <button class="btn btn-secondary mt-3" type="button">Cancelaar</button>
                 </a>
-                <button class="btn btn-primary mt-3" type="submit">Terminar</button>
+                <button (click) = "onSubmit()" class="btn btn-primary mt-3" type="button">Terminar</button>
             </form>
         </div>
     </section>

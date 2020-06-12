@@ -1,0 +1,29 @@
+<app-header [section]="section"></app-header>
+ <div class = "wrapper">
+     <section>
+        
+        <div *ngFor="let article of feed.articles">
+            <div class="container mt-5 mb-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-8">
+                        <div class="d-flex flex-row"></div>
+                        <div class="row news-card p-3 bg-white">
+                            <div class="col-md-4">
+                                <div class="feed-image"><img class="news-feed-image rounded img-fluid img-responsive" src="{{article.urlToImage}}"></div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-feed-text">
+                                    <h2>{{ article.title }}</h2>
+                                    <h5>{{ article.description }}<br></h5>
+                                    <a href="{{article.url}}">{{ article.url }}<br></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+     </section>
+ </div>
+ <app-footer [section]="section"></app-footer>
+

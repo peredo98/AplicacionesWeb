@@ -14,14 +14,21 @@
                 <div class = "columnTable dates"><p>{{survey.startDate}}</p></div>
                 <div class = "columnTable dates"><p>{{survey.endDate}}</p></div>
                 <div class = "columnTable">
-                    <a [routerLink]="[ '/usuario/contestarEncuesta',survey.id]" routerLinkActive="active" class="nav-item nav-link">
+                    <a [routerLink]="[ '/usuario/contestarEncuesta',survey._id]" routerLinkActive="active" class="nav-item nav-link">
                         <button type="button" class="btn btn-primary listbtn" i18n>Contestar</button>
                     </a>
                 </div>
                 <div class = "columnTable">
-                    <a [routerLink]="[ '/usuario/estadisticas',survey.id]" routerLinkActive="active current"class="nav-item nav-link">
-                        <button type="button" class="btn btn-info listbtn" i18n>Ver resultados</button>
-                    </a>
+                    <ng-container *ngIf="survey.resultsPublish; else elsePublish">
+                        <a [routerLink]="[ '/usuario/estadisticas',survey._id]" routerLinkActive="active current"class="nav-item nav-link">
+                            <button type="button" class="btn btn-info listbtn" i18n>Ver resultados</button>
+                        </a>
+                    </ng-container>
+                    <ng-template #elsePublish>
+                        <button type="button" class="btn  btn-secondary listbtn" i18n>Resultados no disponibles</button>
+                    </ng-template>
+
+                   
                 </div>
             </div>
         </ng-container>

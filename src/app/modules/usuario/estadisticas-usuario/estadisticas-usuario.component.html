@@ -9,16 +9,22 @@
                         Estadísticas de Encuesta  
                     </h4>
                     <h4>
-                        {{survey.title}}
+                        <div *ngIf="survey">
+                            {{survey.title}}
+                        </div>
                     </h4>
                 </div>
             </div>
         </div>
         <hr>
-        <app-fechas-usuario [survey]="survey"></app-fechas-usuario>
+        <div *ngIf="survey">
+            <app-fechas-usuario [survey]="survey"></app-fechas-usuario>
+        </div>
         <hr>
-        <div *ngFor="let question of survey.questions">
-            <app-graficas-usuario [question]="question"></app-graficas-usuario>
+        <div *ngIf="survey">
+            <div *ngFor="let question of survey.questions">
+                <app-graficas-usuario [question]="question"></app-graficas-usuario>
+            </div>
         </div>
         </section>
     </div>
