@@ -85,19 +85,23 @@ import {map, catchError, tap} from 'rxjs/operators'
       }
 
 
-      addVotes(survey: Survey, votes: String){
-        const body = JSON.stringify(votes);
+      addVotes(survey: Survey, selectedOptions){
+
+        console.log("VOTANDO");
+
+        let obj = {};
+        obj = {"selectedOptions" : selectedOptions};
+        console.log(obj);
+        const body = JSON.stringify(obj, null, 2);
 
         console.log(body);
+        console.log(survey._id);
 
-        return this.http.put(this.endpoint + '/' + survey._id + '/addVotes', body ,this.requestOptions)
+        return this.http.put(this.endpoint + '/' + survey._id + '/addVotes', body ,this.requestOptions).subscribe(_ => {
+          console.log("DONE");
+        })
       }
 
-      // private extractData(res: Response){
-      //   console.log
-      //   let body = res;
-      //   return body || {};
-      // }
       
       addSurvey(newSurvey: String){
 
@@ -106,9 +110,6 @@ import {map, catchError, tap} from 'rxjs/operators'
         console.log(survey);
 
         return this.http.post<Survey>(this.endpoint, survey, this.requestOptions);
-        // .pipe(
-        //   catchError(this.handleError('addHero', survey))
-        // );
       }
 
 

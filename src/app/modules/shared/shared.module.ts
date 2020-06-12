@@ -10,6 +10,7 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { PoliciesComponent } from './policies/policies.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule} from '@angular/common/http';
+import { PerfilComponent } from './perfil/perfil.component';
 // import {MatCardModule} from '@angular/material/card';
 // import {MatFormFieldModule} from '@angular/material/form-field';
 
@@ -23,7 +24,8 @@ import { HttpClientModule} from '@angular/common/http';
     HomeCarouselComponent,
     HeaderComponent,
     HeaderNavbarComponent,
-    PoliciesComponent
+    PoliciesComponent,
+    PerfilComponent
   ],
   imports: [
     CommonModule,

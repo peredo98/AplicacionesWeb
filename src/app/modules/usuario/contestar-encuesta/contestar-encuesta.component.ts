@@ -40,12 +40,7 @@ export class ContestarEncuestaComponent implements OnInit {
   }
 
   AnswerSurvey() {
-    /*
-    this.surveyService.addVotes(id).subscribe(survey => {
-      this.survey = survey;
-      console.log(this.survey);
-    });
-    */
+    this.surveyService.addVotes(this.survey, this.selectedOptions )
   }
 
   onItemChange(value: String, index: number){
@@ -63,8 +58,6 @@ export class ContestarEncuestaComponent implements OnInit {
   }
 
   onSubmit(){
-
-    console.log("RESULTADOS: ", this.selectedOptions);
-    
+    this.AnswerSurvey()
   }
 }
