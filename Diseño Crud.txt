@@ -1,0 +1,16 @@
+-router.route('/surveys')
+Post() -> Creates Survey with data provided by the user, validates errors with 400 and 500
+Get() -> Gets all surveys, validates with 500
+
+
+-route("/surveys/:id_survey")
+Get() -> Gets a survey with a specific ID, valdiates with error 404
+Delete() -> Deletes a survey with a specific ID, valdiates with error 404
+
+-route("/surveys/:id_survey/turn")
+Put() -> Toggles the isPublish variable with true and false, validates with errors 500 and 404
+
+-route("/surveys/:id_survey/addVotes")
+Put() -> Add Votes to the options of a survey, validates with errors 400, 404 and 500
+
+There is validation in the frontend, on express and Schemas
