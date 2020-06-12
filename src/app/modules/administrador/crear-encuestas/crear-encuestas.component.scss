@@ -1,0 +1,19 @@
+@import "styles";
+.content_login {
+    @include flexCenter($loginContent);
+}
+.form_container {
+    @include flexCenter($loginContainer);
+    .form_login {
+        @include form_style($loginForm);
+        .submission_login {
+            @include flexAlignCenter($loginSubmission);
+        }
+        .change_signup {
+            padding-top: $loginPadding;
+            a {
+                font-weight: $signupFont;
+            }
+        }
+    }
+}

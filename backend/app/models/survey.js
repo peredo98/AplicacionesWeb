@@ -52,7 +52,7 @@ var SurveySchema = new Schema({
     questions: {
         type: [QuestionSchema],
         required: true,
-        validate: [notEmptyQuestions, "Se necesitan preguntar para crear la encuesta"]
+        validate: [notEmptyQuestions, "Se necesitan preguntas para crear la encuesta"]
     },
     city: {
         type: String,

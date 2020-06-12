@@ -13,7 +13,7 @@ import { NewsComponent } from '../shared/news/news.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: {section : 'admin', animation: 'isHome'}},
-  { path: 'news', component: NewsComponent, data: {section : 'admin'}},
+  { path: 'news', component: NewsComponent, data: {section : 'admin', animation: 'isNews'}},
   { path: 'about', component: AboutComponent, data: {section : 'admin', animation: 'isAbout'}},
   { path: 'policies', component: PoliciesComponent, data: {section : 'admin', animation: 'isPolicies'}},
   { path: 'crearEncuestas', component: CrearEncuestasComponent, data:{ animation: 'isCrearEncuestas'}},

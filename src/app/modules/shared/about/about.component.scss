@@ -1,0 +1,4 @@
+@import "styles";
+.content_about {
+    @include flexCenter($contentFlexCenter);
+}

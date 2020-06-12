@@ -1,0 +1,20 @@
+@import "styles";
+#footer_container {
+    background: $gray-purple;
+    margin-top: $footerContainerMarginTop;
+    display: $footerContainerDispay;
+    justify-content: $footerContainerJustify;
+    padding-top: $footerContainerPaddingTop;
+    #footer_left, #footer_right{
+        width: $footerContainerWidth;
+        @include flexAlignCenter($footerContainerFlexAlignCenter);
+        color: $gray-text;
+        font-size: $footerContainerFontSize;
+        .footer_link {
+            color: $footerContainerColor;
+        }
+        .footer_active{
+            @include activeFont();
+        }
+    }
+}

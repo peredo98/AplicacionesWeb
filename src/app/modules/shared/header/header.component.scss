@@ -1,0 +1,36 @@
+@import "styles";
+header{
+    height: $headerHeight;
+}
+.header-color {
+    background-color: $dark-purple;
+}
+
+.corner-ribbon{
+    width: $ribbonWidth;
+    background: $ribbonBackground;
+    position: $ribbonPosition;
+    top: $ribbonTop;
+    left: $ribbonSide;
+    text-align: $ribbonTextAlign;
+    line-height: $ribbonLineHeight;
+    letter-spacing: $ribbonLetterSpacing;
+    color: $ribbonColor;
+    transform: $ribbonLeftTransform;
+    -webkit-transform: $ribbonLeftWebKitTransform;
+}
+
+.corner-ribbon.top-left{
+    top: $ribbonTop;
+    left: $ribbonSide;
+    transform: $ribbonLeftTransform;
+    -webkit-transform: $ribbonLeftWebKitTransform;
+}
+
+.corner-ribbon.top-right{
+    top: $ribbonTop;
+    right: $ribbonSide;
+    left: $ribbonRightLeft;
+    transform: $ribbonRightTransform;
+    -webkit-transform: $ribbonRightWebKitTransform;
+}
