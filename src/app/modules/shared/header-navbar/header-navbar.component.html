@@ -27,6 +27,8 @@
                 </div>
                 <!-- <button (click) = "auth.login()" *ngIf="!auth.loggedIn">Log In</button>
                 <button (click) = "auth.logout()" *ngIf="auth.loggedIn">Log Out</button> -->
+                <button (click)="auth.login()" *ngIf="!auth.loggedIn" class="nav-item nav-link" i18n>Log In</button>
+                <button (click)="auth.logout()" *ngIf="auth.loggedIn" class="nav-item nav-link" i18n>Log Out</button>
                 <a *ngSwitchDefault routerLink="/login" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Iniciar sesión</a>
                 <a *ngSwitchCase="'admin'" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Cerrar Sesión</a>
                 <a *ngSwitchCase="'usuario'" routerLink="/" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active current" class="nav-item nav-link" i18n>Cerrar Sesión</a>
