@@ -45,15 +45,15 @@ router.get('/', function(req, res){
 var Survey = require('./app/models/survey');
 
 //post and get surveys
-router.route('/surveys').post(async function(req, res){
+router.route('/surveys').post(function(req, res){
     var survey = new Survey();
     var inputQuestions;
     try {
         if(req.body.questions){
-            inputQuestions = JSON.parse(req.body.questions);
+            inputQuestions = req.body.questions;
         }
     } catch (error){
-        res.status(500).send(err);
+        res.status(500).send(error);
         return;
     }
 
@@ -98,13 +98,13 @@ router.route('/surveys').post(async function(req, res){
                     options: question.options
                 }
             );
+            console.log(question.title);
         });
     }
-
     try {
         console.log(survey.questions.length);
 
-        await survey.save(function (err){
+        survey.save(function (err){
             if(err){
                 if((survey.questions === undefined || survey.questions.length == 0) || !survey.title || !survey.startDate || !survey.endDate || !survey.creationDate || !survey.city || !survey.state){
                     res.status(400).send({mensaje: "Uno de los campos no fue llenado correctamente"});
@@ -121,9 +121,10 @@ router.route('/surveys').post(async function(req, res){
         });
 
     } catch(error){
-        res.status(500).send(err);
+        res.status(500).send(error);
     }
 })
+
 .get(function (req, res){
     limite = 5;
     Survey.find(function(err, surveys){
