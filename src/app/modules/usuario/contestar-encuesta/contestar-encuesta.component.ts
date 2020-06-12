@@ -17,7 +17,7 @@ export class ContestarEncuestaComponent implements OnInit {
   
 
   constructor(private _Activatedroute:ActivatedRoute,
-    private _router:Router, private surveyService: SurveyService){
+    private router:Router, private surveyService: SurveyService){
   }
 
   ngOnInit(): void {
@@ -40,7 +40,9 @@ export class ContestarEncuestaComponent implements OnInit {
   }
 
   AnswerSurvey() {
-    this.surveyService.addVotes(this.survey, this.selectedOptions )
+    this.surveyService.addVotes(this.survey, this.selectedOptions).subscribe(_ => {
+      this.router.navigateByUrl("/usuario/listaEncuestas");
+    });
   }
 
   onItemChange(value: String, index: number){

@@ -96,9 +96,7 @@ import {map, catchError, tap} from 'rxjs/operators'
 
         console.log(body);
 
-        return this.http.put(this.endpoint + '/' + survey._id + '/addVotes', body ,this.requestOptions).subscribe(_ => {
-          console.log("DONE");
-        })
+        return this.http.put(this.endpoint + '/' + survey._id + '/addVotes', body ,this.requestOptions);
       }
 
       
