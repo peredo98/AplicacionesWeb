@@ -89,7 +89,7 @@ import {map, catchError, tap} from 'rxjs/operators'
 
         console.log(survey);
 
-        return this.http.post<Survey>(this.endpoint, survey, this.requestOptions).subscribe();
+        return this.http.post<Survey>(this.endpoint, survey, this.requestOptions);
         // .pipe(
         //   catchError(this.handleError('addHero', survey))
         // );
